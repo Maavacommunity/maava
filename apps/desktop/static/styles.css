@@ -1,0 +1,245 @@
+:root {
+  --bg: #0b0e14;
+  --bg-elevated: #12161f;
+  --bg-card: #151a24;
+  --border: #232938;
+  --text: #e8ebf1;
+  --text-muted: #8993a8;
+  --accent: #22d3ee;
+  --accent-2: #34d399;
+  --danger: #f87171;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "Segoe UI", Inter, Roboto, sans-serif;
+  font-size: 14px;
+}
+
+.topbar {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-elevated);
+}
+
+.brand {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+
+.brand-sub {
+  font-weight: 400;
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.status-pill {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: calc(100vh - 56px);
+}
+
+.sidebar {
+  border-right: 1px solid var(--border);
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+}
+
+.agent-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.agent-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.agent-item:hover {
+  background: var(--bg-card);
+}
+
+.agent-item.active {
+  background: var(--bg-card);
+  border-color: var(--accent);
+}
+
+.agent-item-name {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.agent-item-category {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.badge {
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.badge.not-installed {
+  background: rgba(137, 147, 168, 0.15);
+  color: var(--text-muted);
+}
+
+.badge.installing {
+  background: rgba(34, 211, 238, 0.15);
+  color: var(--accent);
+}
+
+.badge.installed {
+  background: rgba(137, 147, 168, 0.15);
+  color: var(--text-muted);
+}
+
+.badge.running {
+  background: rgba(52, 211, 153, 0.15);
+  color: var(--accent-2);
+}
+
+.badge.error {
+  background: rgba(248, 113, 113, 0.15);
+  color: var(--danger);
+}
+
+.detail {
+  padding: 24px 32px;
+  overflow-y: auto;
+}
+
+.empty-state {
+  color: var(--text-muted);
+}
+
+.detail-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 16px;
+}
+
+.detail-title {
+  font-size: 22px;
+  margin: 0 0 6px;
+}
+
+.detail-tagline {
+  color: var(--text-muted);
+  margin: 0;
+  font-size: 13.5px;
+  max-width: 480px;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 9px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  background: var(--bg-elevated);
+  color: var(--text);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #04141a;
+  border: none;
+}
+
+.btn-danger {
+  color: var(--danger);
+  border-color: rgba(248, 113, 113, 0.4);
+}
+
+.meta-row {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.log-panel {
+  background: #05070b;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  height: 360px;
+  overflow-y: auto;
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  color: #b8f7d4;
+}
+
+.log-panel .log-line {
+  color: var(--text-muted);
+}
+
+.log-panel .log-line.cmd {
+  color: var(--accent);
+}

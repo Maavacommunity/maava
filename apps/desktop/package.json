@@ -2,11 +2,17 @@
   "name": "desktop",
   "private": true,
   "version": "0.0.0",
+  "description": "Maava desktop client — discover, install, and launch AI tools and agents.",
+  "author": {
+    "name": "Portdex",
+    "email": "rajdeepverma2020@gmail.com"
+  },
+  "homepage": "https://github.com/Maavacommunity/maava",
   "main": "dist/main.js",
   "scripts": {
     "dev": "tsc -p tsconfig.json && electron .",
     "build": "tsc -p tsconfig.json",
-    "package": "npm run build && electron-builder",
+    "package": "pnpm run build && electron-builder",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "devDependencies": {
@@ -18,9 +24,18 @@
   "build": {
     "appId": "com.portdex.maava",
     "productName": "Maava",
-    "files": ["dist/**/*"],
+    "publish": null,
+    "protocols": {
+      "name": "Maava Install Link",
+      "schemes": ["maava"]
+    },
+    "files": ["dist/**/*", "static/**/*"],
+    "extraResources": [{ "from": "agents", "to": "agents" }],
     "directories": {
       "output": "release"
-    }
+    },
+    "mac": { "target": ["dmg", "zip"], "category": "public.app-category.developer-tools" },
+    "win": { "target": ["nsis"] },
+    "linux": { "target": ["AppImage", "deb"], "category": "Development" }
   }
 }

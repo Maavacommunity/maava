@@ -1,11 +1,31 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'" />
     <title>Maava</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>Maava desktop shell</h1>
-    <p>Replace this with a built frontend bundle or point at a packaged app UI.</p>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        Maava <span class="brand-sub">Desktop Library</span>
+      </div>
+      <div id="status" class="status-pill">Loading agents…</div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <h2>Installed &amp; Available</h2>
+        <ul id="agent-list" class="agent-list"></ul>
+      </aside>
+
+      <section class="detail" id="detail">
+        <p class="empty-state">Select an agent from the library to view details.</p>
+      </section>
+    </main>
+
+    <script type="module" src="./renderer.js"></script>
   </body>
 </html>

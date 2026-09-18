@@ -5,6 +5,7 @@ dist/
 out/
 *.tsbuildinfo
 .pnpm-store/
+next-env.d.ts
 
 # Electron
 apps/desktop/release/
