@@ -1,0 +1,24 @@
+name: pipelines-schedule
+
+on:
+  schedule:
+    # 03:00 UTC daily. Adjust as pipelines are added.
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  run-daily:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install ./scraper ./pipelines
+
+      - run: python -m pipelines.run_daily
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}

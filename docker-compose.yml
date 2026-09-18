@@ -1,0 +1,18 @@
+# Local dev only. Production uses AWS RDS (see infra/) — this just mirrors
+# Postgres locally so services/api, scraper, and pipelines can run against
+# something without touching real infra.
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: maava-postgres
+    environment:
+      POSTGRES_USER: maava
+      POSTGRES_PASSWORD: maava
+      POSTGRES_DB: maava
+    ports:
+      - "5432:5432"
+    volumes:
+      - maava-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  maava-postgres-data:

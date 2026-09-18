@@ -1,0 +1,65 @@
+name: infra-ci
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "infra/**"
+      - ".github/workflows/infra-ci.yml"
+  pull_request:
+    paths:
+      - "infra/**"
+      - ".github/workflows/infra-ci.yml"
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Apply after plan (requires manual trigger)"
+        type: boolean
+        default: false
+
+defaults:
+  run:
+    working-directory: infra
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hashicorp/setup-terraform@v3
+
+      - run: terraform fmt -check -recursive
+      - run: terraform init -backend=false
+      - run: terraform validate
+
+      # Real plan/apply needs AWS creds + a configured remote backend.
+      # Wire these up (e.g. via aws-actions/configure-aws-credentials and
+      # OIDC) before pointing this at a real environment.
+      # - uses: aws-actions/configure-aws-credentials@v4
+      #   with:
+      #     role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+      #     aws-region: us-east-1
+      # - run: terraform init
+      # - run: terraform plan -var-file=environments/dev.tfvars
+
+  apply:
+    needs: plan
+    if: github.event_name == 'workflow_dispatch' && inputs.apply == true
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hashicorp/setup-terraform@v3
+
+      # - uses: aws-actions/configure-aws-credentials@v4
+      #   with:
+      #     role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+      #     aws-region: us-east-1
+      # - run: terraform init
+      # - run: terraform apply -auto-approve -var-file=environments/dev.tfvars
+      - run: echo "Uncomment the steps above once AWS credentials and a remote backend are configured."

@@ -1,0 +1,30 @@
+name: scraper-ci
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scraper/**"
+      - ".github/workflows/scraper-ci.yml"
+  pull_request:
+    paths:
+      - "scraper/**"
+      - ".github/workflows/scraper-ci.yml"
+
+defaults:
+  run:
+    working-directory: scraper
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install .[dev]
+      - run: ruff check .
+      - run: pytest
