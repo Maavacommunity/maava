@@ -1,0 +1,138 @@
+# Sponsio — Deterministic safety solutions for probabilistic AI… | olud.ai
+
+> Set up safety rules for AI agents to ensure they operate within defined limits. Deterministic safety solutions for (Apache-2.0, 2026). 438 stars on GitHub.
+
+_Source: https://olud.ai/project/sponsiolabs-sponsio.html_
+
+---
+
+[Home](https://olud.ai/)›
+[Projects](https://olud.ai/projects.html)›
+Sponsio
+
+Sponsio
+
+[Python](https://olud.ai/language/python.html)
+
+## Sponsio
+
+Deterministic safety solutions for probabilistic AI agents
+
+by **SponsioLabs** · GitHub
+
+[438](https://olud.ai/most-starred.html)
+
+Stars
+
+[25](https://olud.ai/most-forked.html)
+
+Forks
+
+[+2 this week](https://olud.ai/trending.html)
+
+Trending
+
+[Apache-2.0](https://olud.ai/license/apache-2-0.html)
+
+License
+
+[2026](https://olud.ai/year/2026.html)
+
+Created
+
+[2 days ago](https://olud.ai/recently-updated.html)
+
+Last commit
+
+[agent-guardrails](https://olud.ai/projects.html?cat=agent-guardrails)
+
+Category
+
+[Python](https://olud.ai/language/python.html)
+
+Language
+
+Likely
+
+Self-hostable
+- [agent-guardrails](https://olud.ai/projects.html?cat=agent-guardrails)
+- [agent-harness](https://olud.ai/dna/agent-harness.html)
+- [agent-runtime](https://olud.ai/dna/agent-runtime.html)
+Apache-2.0
+- [Python](https://olud.ai/language/python.html)
+Self-hostable
+
+[View on GitHub](https://github.com/SponsioLabs/Sponsio)
+
+𝕏  X / Twitter
+
+🔗  Copy link
+
+In plain wordsSet up safety rules for AI agents to ensure they operate within defined limits.
+
+You maintain this project?
+
+Claim its page: indexed whatever its rank, translated into six languages, and enriched with what you write yourself.
+
+[Claim this page →](https://olud.ai/claim.html?repo=SponsioLabs%2FSponsio)
+
+📈 Star history
+
+2026-07-202026-08-31
+
+📈 Track Sponsio
+
+Get an email alert on its next release or when it starts trending — never miss the moment.
+
+Free · no card · unsubscribe anytime
+
+[Get email alerts →](https://olud.ai/account.html)
+
+📄 About
+
+Deterministic safety solutions for probabilistic AI agents
+
+Sponsio has 438 stars on GitHub. It has been forked 25 times. Sponsio is written mainly in Python. It has been in active development since 2026. Sponsio is available under the Apache-2.0 license. Its main topics are agent-guardrails, agent-harness, agent-runtime, agent-safety.
+
+📦 Latest release
+
+❓ Frequently asked questions
+
+#### What is Sponsio?
+Deterministic safety solutions for probabilistic AI agents
+
+#### Is Sponsio open source?
+Sponsio is an open-source project. It is released under the Apache-2.0 license.
+
+#### Is Sponsio free?
+Yes. Sponsio is free and open source — you can use, modify and self-host it.
+
+#### What license does Sponsio use?
+Sponsio is available under the Apache-2.0 license.
+
+#### What language is Sponsio written in?
+Sponsio is written mainly in Python.
+
+🏅 Maintainer of this project?
+
+olud.ai badge — Sponsio
+Add this live badge to your README — your GitHub stars and directory rank, refreshed daily.
+
+`[![olud.ai](https://olud.ai/badge.php?tool=sponsiolabs-sponsio)](https://olud.ai/project/sponsiolabs-sponsio.html)`
+Copy Markdown
+
+[More badge options →](https://olud.ai/badge.html)
+
+🧬 Shares DNA with[🧬 View the DNA map →](https://olud.ai/dna/agent-harness.html)
+- [SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risk… ★ 15.3k · agent-security sharesagent-securityprompt-injection](https://olud.ai/project/nvidia-skillspector.html)
+- [ragflow RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting… ★ 89.7k · agent-harness](https://olud.ai/project/infiniflow-ragflow.html)
+- [lobehub 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring,… ★ 82.1k · agent](https://olud.ai/project/lobehub-lobehub.html)
+- [anything-llm Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful loc… ★ 65.4k · agent-computer](https://olud.ai/project/mintplex-labs-anything-llm.html)
+- [QwenPaw Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; suppor… ★ 34.7k · agent](https://olud.ai/project/agentscope-ai-qwenpaw.html)
+- [holaOS Open-source agentic workspace enterprises can make their own. Connect the systems you already r… ★ 11.1k · agent](https://olud.ai/project/holaboss-ai-holaos.html)
+- [yao ✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board,… ★ 7.8k · agent-harness](https://olud.ai/project/yaoapp-yao.html)
+- [loopx Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and othe… ★ 5.3k · agent-control-plane](https://olud.ai/project/huangruiteng-loopx.html)
+- [awesome-harness-engineering Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions… ★ 3.9k · agent-harness](https://olud.ai/project/ai-boost-awesome-harness-engineering.html)
+- [knowhere Knowhere extracts, parses, and outputs structured chunks ready for AI Agents and RAG. ★ 2.8k · agent-harness](https://olud.ai/project/ontos-ai-knowhere.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.

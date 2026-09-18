@@ -8,9 +8,13 @@ Monorepo for the Portdex/Maava project.
 apps/
   frontend/     Next.js + TypeScript web app
   desktop/      Electron desktop shell
+  olud-viewer/  Static frontend for the olud.ai mirror (browses services/olud-api)
 services/
   api/          FastAPI microservice, deployed to AWS Lambda (via Mangum)
+  olud-api/     Read-only FastAPI API over the olud.ai mirror data, backed by DynamoDB
 scraper/        Python scraping jobs
+  scraper/olud/ Scrape + parse + load pipeline for the olud.ai mirror
+  data/olud/    Scraped markdown (raw/) and parsed JSONL (structured/) for the mirror
 pipelines/      Scheduled data pipeline scripts (run via GitHub Actions cron)
 infra/          Terraform: VPC, Aurora Serverless Postgres, Lambda, API Gateway
 packages/
@@ -28,7 +32,7 @@ another.
 
 - Node 20+ and [pnpm](https://pnpm.io) (`corepack enable` will provide it)
 - Python 3.12+
-- Docker (for local Postgres via `docker-compose.yml`)
+- Docker (for local Postgres + DynamoDB via `docker-compose.yml`)
 - Terraform 1.7+ and an AWS account (for `infra/`)
 
 ## Getting started
@@ -39,8 +43,10 @@ corepack enable
 pnpm install
 pnpm dev:frontend      # http://localhost:3000
 pnpm dev:desktop        # opens Electron pointed at the frontend dev server
+pnpm dev:olud-viewer    # http://localhost:5173
 
-# Local Postgres (mirrors the RDS/Aurora setup used in prod)
+# Local Postgres + DynamoDB (mirrors the Aurora setup used in prod, plus
+# the DynamoDB local instance the olud.ai mirror pipeline uses)
 docker compose up -d
 
 # Microservice
@@ -50,11 +56,24 @@ pip install .[dev]
 cp .env.example .env
 uvicorn app.main:app --reload
 
+# olud.ai mirror API (reads from DynamoDB local)
+cd services/olud-api
+python -m venv .venv && source .venv/bin/activate
+pip install .[dev]
+cp .env.example .env
+uvicorn app.main:app --reload --port 8080
+
 # Scraper
 cd scraper
 python -m venv .venv && source .venv/bin/activate
 pip install .[dev]
 python -m scraper.main --target default
+
+# olud.ai mirror pipeline (scrape -> parse -> load into DynamoDB local)
+cd scraper
+python -m scraper.olud.scrape   # fetches raw markdown into data/olud/raw/
+python -m scraper.olud.parse    # writes data/olud/structured/*.jsonl
+python -m scraper.olud.load     # loads structured/*.jsonl into DynamoDB local
 
 # Pipelines
 cd pipelines
@@ -85,7 +104,7 @@ Each app/service has its own workflow, scoped by path filters, so a change
 to `apps/frontend` doesn't trigger the Python or Terraform jobs:
 
 - `frontend-ci.yml`, `desktop-ci.yml` — lint/typecheck/build
-- `microservice-ci.yml` — test + build the Lambda deployment package
+- `microservice-ci.yml`, `olud-api-ci.yml` — test + build the Lambda deployment package
 - `scraper-ci.yml`, `pipelines-ci.yml` — lint/test
 - `pipelines-schedule.yml` — runs `pipelines/run_daily.py` on a daily cron
 - `infra-ci.yml` — `terraform fmt`/`validate` on PR; plan/apply steps are

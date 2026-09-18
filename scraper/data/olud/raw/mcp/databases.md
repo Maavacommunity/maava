@@ -1,0 +1,71 @@
+# Databases MCP Servers — 53 analyzed | olud.ai
+
+> 53 Databases MCP servers ranked by MCP Score — stars, language, activity and health for each, every card linking to a full analyzed profile. Updated daily.
+
+_Source: https://olud.ai/mcp/databases.html_
+
+---
+
+[Home](https://olud.ai/) › [MCP Servers](https://olud.ai/mcp/) › Databases
+
+## Databases MCP Servers
+53 Databases MCP servers, ranked by MCP Score. Every card links to a full profile — stars, language, commit activity, health score and related projects — refreshed daily.
+
+**Live data** · Updated daily · part of [700 MCP servers analyzed](https://olud.ai/mcp/)
+- [**mcp-toolbox✓**googleapis100 MCP Toolbox for Databases is an open source MCP server for databases. agentagentsbigquery ★ 16,103 · Go · today91/100](https://olud.ai/project/googleapis-mcp-toolbox.html)
+- [**graphify**Graphify-Labs94 Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude C… ai-agentsantigravityast ★ 101,010 · Python · 2 days ago](https://olud.ai/project/graphify-labs-graphify.html)
+- [**codebase-memory-mcp**DeusData94 High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in millisecond… aiderastclaude-code ★ 37,122 · C · today](https://olud.ai/project/deusdata-codebase-memory-mcp.html)
+- [**dbx**t8y294 20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, S… cliclickhousedatabase ★ 12,972 · Rust · today85/100](https://olud.ai/project/t8y2-dbx.html)
+- [**dagu**dagucloud94 Self-hosted workflow orchestration in one binary. YAML DAGs, cron, AI agent steps, Web UI. Lightweight Airflow alternative, no dat… ai-agentsairflow-alternativecron ★ 3,692 · Go · yesterday91/100](https://olud.ai/project/dagucloud-dagu.html)
+- [**dbhub**bytebase92 Token efficient, zero-dependency database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite. agentsanthropicclaude ★ 3,269 · TypeScript · 2 days ago93/100](https://olud.ai/project/bytebase-dbhub.html)
+- [**code-graph-rag**vitali8792 The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs astclaude-codecode-analysis ★ 2,475 · Python · today87/100](https://olud.ai/project/vitali87-code-graph-rag.html)
+- [**OB1**NateBJones-Projects91 Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No… ai-agentsmemory-layermemory-layer-for-ai ★ 4,364 · TypeScript · yesterday](https://olud.ai/project/natebjones-projects-ob1.html)
+- [**goclaw**nextlevelbuilder91 GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security, and native concurrency. Deploy AI age… agent-orchestrationai-agentai-gateway ★ 3,500 · Go · yesterday85/100](https://olud.ai/project/nextlevelbuilder-goclaw.html)
+- [**graphjin**dosco91 One governed graph for AI agents — GraphQL + MCP over your databases, files, APIs, and code agentic-aiai-agentscloud-native ★ 3,130 · Go · yesterday96/100](https://olud.ai/project/dosco-graphjin.html)
+- [**claude-context**zilliztech90 Code search MCP for Claude Code. Make entire codebase the context for any coding agent. agentagentic-ragai-coding ★ 12,231 · TypeScript · 20 days ago74/100](https://olud.ai/project/zilliztech-claude-context.html)
+- [**tabularis**TabularisDB90 Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and… ai-agentai-assistantcross-platform ★ 3,999 · TypeScript · yesterday](https://olud.ai/project/tabularisdb-tabularis.html)
+- [**mysql_mcp_server**designcomputer89 A Model Context Protocol (MCP) server that enables secure interaction with MySQL databases claudeclaude-codedatabase ★ 1,348 · Python · yesterday77/100](https://olud.ai/project/designcomputer-mysql-mcp-server.html)
+- [**npcpy**NPC-Worldwide88 The python library for research and development in NLP, multimodal LLMs, Agents, ML, Knowledge Graphs, and more. agentsmcp-clientollama ★ 1,455 · Python · today](https://olud.ai/project/npc-worldwide-npcpy.html)
+- [**magic**polterguy88 Deterministic AI agents and generated backends — MIT-licensed, self-hosted, MCP-native agentic-aiai-agentsbackend ★ 1,159 · C# · yesterday82/100](https://olud.ai/project/polterguy-magic.html)
+- [**SocratiCode**giancarloerra87 Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic sear… ai-assistantastclaude ★ 3,191 · TypeScript · 3 days ago](https://olud.ai/project/giancarloerra-socraticode.html)
+- [**onecli**onecli85 Open-source credential gateway with a built-in vault. give your AI agents access to services without exposing keys. ai-agentsclinanoclaw ★ 2,961 · TypeScript · 3 days ago84/100](https://olud.ai/project/onecli-onecli.html)
+- [**prest**prest84 PostgreSQL ➕ REST, low-code, simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres applic… automatic-apidatabasedatabases ★ 4,596 · Go · 17 days ago88/100](https://olud.ai/project/prest-prest.html)
+- [**llmwiki**lucasastorian84 Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your w… agentsai-agentsclaude ★ 1,448 · Python · 6 days ago70/100](https://olud.ai/project/lucasastorian-llmwiki.html)
+- [**butterbase**butterbase-ai83 Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP. baasbackend-as-a-serviceopen-source ★ 2,894 · TypeScript · yesterday82/100](https://olud.ai/project/butterbase-ai-butterbase.html)
+- [**open-bsp-api**matiasbattocchia83 Open-source WhatsApp + Instagram Business platform agentsai-agentsdeno ★ 534 · TypeScript · yesterday](https://olud.ai/project/matiasbattocchia-open-bsp-api.html)
+- [**redis-vl-python✓**redis83 Redis Vector Library (RedisVL) -- the AI-native Python client for Redis. anthropicembeddinghuggingface ★ 418 · Python · 2 days ago](https://olud.ai/project/redis-redis-vl-python.html)
+- [**EDDI**labsai83 Config-driven engine that turns JSON into production-grade AI agents. Multi-agent orchestration, 12+ LLM providers, MCP/A2A protoc… a2aai-agentsai-orchestration ★ 363 · Java · today](https://olud.ai/project/labsai-eddi.html)
+- [**free-stockdb**hello245m82 面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、… a-sharealgorithmic-tradingbacktesting ★ 1,687 · HTML · 4 days ago70/100](https://olud.ai/project/hello245m-free-stockdb.html)
+- [**mission-control**builderz-labs81 Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate OpenClaw, Claude Code, Codex, and o… agent-observabilityagent-operationsagent-orchestration ★ 5,903 · TypeScript · 7 days ago100/100](https://olud.ai/project/builderz-labs-mission-control.html)
+- [**marm-memory**Lyellr8881 Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, c… agent-memoryai-agentsai-memory ★ 324 · Python · yesterday](https://olud.ai/project/lyellr88-marm-memory.html)
+- [**Better-Fullstack**Marve10s79 Scaffold production-ready full-stack apps in TypeScript, Rust, Python, Go, and Java with a visual builder and CLI. Choose your fro… boilerplateclidotnet ★ 702 · TypeScript · 2 days ago](https://olud.ai/project/marve10s-better-fullstack.html)
+- [**DeskcommCRM**melgarafael76 Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Interco… ai-agentschatbotcrm ★ 234 · TypeScript · yesterday](https://olud.ai/project/melgarafael-deskcommcrm.html)
+- [**mcp-server-elasticsearch✓**elastic75 elasticsearchvector-database ★ 696 · Rust · 17 days ago](https://olud.ai/project/elastic-mcp-server-elasticsearch.html)
+- [**roam-code**Cranot75 Local codebase intelligence CLI + MCP server for AI coding agents: SQLite code graph, 28 languages, 284 commands, 244 MCP tools, c… ai-agentsai-codingcli ★ 503 · Python · today](https://olud.ai/project/cranot-roam-code.html)
+- [**TrueMemory**buildingjoshbetter74 The memory your AI should have had from the start. Automatic capture, automatic recall, 100% local. One SQLite file, zero cloud. W… agent-memoryai-agentai-agents ★ 371 · Python · 5 days ago](https://olud.ai/project/buildingjoshbetter-truememory.html)
+- [**guild**mathomhaus74 Shared context, memory, and task coordination across AI coding agents. Single Go binary, local SQLite, hybrid keyword and semantic… agent-coordinationagent-memoryai-agents ★ 311 · Go · 6 days ago](https://olud.ai/project/mathomhaus-guild.html)
+- [**Ori-Mnemos**aayoawoyemi73 Local-first persistent agentic memory powered by Recursive Memory Harness (RMH). Open source must win. agent-memoryai-agentai-agents ★ 317 · TypeScript · 3 days ago](https://olud.ai/project/aayoawoyemi-ori-mnemos.html)
+- [**knowledge-rag**lyonzin72 Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder reranking, 13 MCP tools, 20 format parsers… antigravityclaudeclaude-code ★ 242 · Python · yesterday](https://olud.ai/project/lyonzin-knowledge-rag.html)
+- [**paxm**pax-beehive71 Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents. agent-memoryai-agentsclaude-code ★ 436 · Go · 7 days ago](https://olud.ai/project/pax-beehive-paxm.html)
+- [**ClawMem**yoloshii71 On-device memory layer for AI agents. Claude Code, Hermes and OpenClaw. Hooks + MCP server + hybrid RAG search. ai-agent-memoryai-agentsbun ★ 195 · TypeScript · 2 days ago](https://olud.ai/project/yoloshii-clawmem.html)
+- [**ktx**Kaelio69 ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other AI agents to query analyt… agentagent-skillsagents ★ 1,523 · TypeScript · 15 days ago](https://olud.ai/project/kaelio-ktx.html)
+- [**rushdb**rush-db68 RushDB is a graph + vector database and memory layer for AI agents. Push any JSON, get typed, searchable, relationship-aware recor… ai-agentsai-memoryai-tools ★ 319 · TypeScript · 9 days ago](https://olud.ai/project/rush-db-rushdb.html)
+- [**tma1**tma1-ai67 Local-first observability your agent reads back. TMA1 records every LLM call, then routes what it sees into the agent's next turn… agent-loopagent-observabilityai-agents ★ 114 · Go · yesterday](https://olud.ai/project/tma1-ai-tma1.html)
+- [**m_flow**FlowElement-ai65 A bio-inspired cognitive memory engine — a new paradigm for Graph RAG. agent-memoryagentic-aiai-reasoning ★ 4,420 · Python · 2 mo ago](https://olud.ai/project/flowelement-ai-m-flow.html)
+- [**pg-aiguide**timescale65 MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code. ai-agentsai-codingclaude-code-plugin ★ 1,804 · Python · 1 mo ago45/100](https://olud.ai/project/timescale-pg-aiguide.html)
+- [**ai-memory-vault**jaredrhod65 Give your AI a real, persistent memory. The open-source system plus templates that turn an Obsidian vault into your AI's working m… agent-memoryai-agentsai-memory ★ 426 · 8 days ago](https://olud.ai/project/jaredrhod-ai-memory-vault.html)
+- [**ArcRift**Eshaan-Nair62 Persistent local memory layer for AI. ArcRift uses a extension and a native MCP server to sync context and decisions from your bro… ai-agentsai-codingbrowser-extension ★ 245 · TypeScript · 27 days ago](https://olud.ai/project/eshaan-nair-arcrift.html)
+- [**Compartment**MaxFreedomPollard61 Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storag… agent-memoryai-agentsai-memory ★ 121 · Python · yesterday](https://olud.ai/project/maxfreedompollard-compartment.html)
+- [**pmb**oleksiijko58 Local-first persistent memory for AI coding agents (Claude Code, Cursor, Codex) over MCP. Decisions, lessons and facts live in one… ai-agentsai-memorybm25 ★ 285 · Python · 21 days ago](https://olud.ai/project/oleksiijko-pmb.html)
+- [**stash**alash3al55 Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Sel… ai-agentsai-memorymemory ★ 757 · Go · 1 mo ago](https://olud.ai/project/alash3al-stash.html)
+- [**postgres-mcp**crystaldba53 Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents. ★ 3,146 · Python · 6 mo ago36/100](https://olud.ai/project/crystaldba-postgres-mcp.html)
+- [**AI-Engineer**Ratnesh-18199852 AI Engineering Specially Topics- Agentic AI & GenAI Explanation agentic-aiai-agentsastradb ★ 98 · 2 mo ago](https://olud.ai/project/ratnesh-181998-ai-engineer.html)
+- [**agentkeeper**Thinklanceai46 Own your AI memory — import ChatGPT, Claude and Gemini exports, see what each AI knows about you. Checkpoint/restore and cross-m… agent-memoryagentic-aiagents ★ 119 · Python · 1 mo ago](https://olud.ai/project/thinklanceai-agentkeeper.html)
+- [**langconnect-client**braincrew-lab42 A Modern GUI Interface for Vector Database Management(Supports MCP integration) langchainpostgresqlvector-database ★ 327 · TypeScript · 13 mo ago](https://olud.ai/project/braincrew-lab-langconnect-client.html)
+- [**MegaMemory**0xK3vin41 Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings, and web explorer. agentic-codingai-agentsclaude-code ★ 310 · TypeScript · 3 mo ago](https://olud.ai/project/0xk3vin-megamemory.html)
+- [**daymon**daymonio37 Daymon puts your favorite AI to work 24/7. It schedules, remembers, and orchestrates your own virtual team. Free. ai-agentsai-assistantautomation ★ 368 · TypeScript · 5 mo ago](https://olud.ai/project/daymonio-daymon.html)
+- [**specrag**blackhaiyu-sudo35 面向 PRD、业务规则、SOP、流程文档和产品截图的证据型 RAG 知识库。 business-docsflaskknowledge-base ★ 98 · Python · 1 mo ago](https://olud.ai/project/blackhaiyu-sudo-specrag.html)
+
+MCP Score = activity (40: pushed within 7/30/90/180 days) + popularity (30: log of stars) + community (20: log of forks) + maturity (10: repo age). Deterministic, computed from public GitHub data at every refresh.
+
+[← All MCP server categories](https://olud.ai/mcp/)

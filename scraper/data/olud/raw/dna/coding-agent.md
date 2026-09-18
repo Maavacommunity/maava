@@ -1,0 +1,108 @@
+# coding-agent — DNA families | olud.ai
+
+> 80 projects share this GitHub topic. Measured from GitHub topics shared by both projects, weighted by how rare each topic is.
+
+_Source: https://olud.ai/dna/coding-agent.html_
+
+---
+
+## coding-agent
+80 projects share this GitHub topic
+
++−⌂
+
+Lines connect members that are measurably related to each other. Dot size reflects stars.
+
+🧬 Members
+- [openinterpreter A coding agent for open models like Kimi K3 ★ 68.2k](https://olud.ai/project/openinterpreter-openinterpreter.html)
+- [awesome-claude-code A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the… ★ 53.3k](https://olud.ai/project/hesreallyhim-awesome-claude-code.html)
+- [ai-agent-book 《深入理解 AI Agent：设计原理与工程实践》（李博杰… ★ 43.9k](https://olud.ai/project/bojieli-ai-agent-book.html)
+- [CodeWhale Open-source coding agent for your terminal, built in Rust and on a journey of continuous community… ★ 40.9k](https://olud.ai/project/hmbown-codewhale.html)
+- [DeepSeek-Reasonix DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it… ★ 35.3k](https://olud.ai/project/esengine-deepseek-reasonix.html)
+- [qwen-code An open-source AI coding agent that lives in your terminal. ★ 27.5k](https://olud.ai/project/qwenlm-qwen-code.html)
+- [planning-with-files Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans,… ★ 26.5k](https://olud.ai/project/othmanadi-planning-with-files.html)
+- [jcode The most RAM efficient harness ★ 18.9k](https://olud.ai/project/1jehuang-jcode.html)
+- [cc-haha Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code… ★ 14.3k](https://olud.ai/project/nanmicoder-cc-haha.html)
+- [yao ✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible… ★ 7.8k](https://olud.ai/project/yaoapp-yao.html)
+- [Kun Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for… ★ 6.3k](https://olud.ai/project/kunagent-kun.html)
+- [rllm Democratizing Reinforcement Learning for LLMs ★ 5.8k](https://olud.ai/project/rllm-org-rllm.html)
+- [agents-cli The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI… ★ 5.8k](https://olud.ai/project/google-agents-cli.html)
+- [ouroboros Agent OS: Stop prompting. Start specifying. A Socratic interview gates the spec on an ambiguity score, then… ★ 5.4k](https://olud.ai/project/q00-ouroboros.html)
+- [vibesdk An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on… ★ 5.2k](https://olud.ai/project/cloudflare-vibesdk.html)
+- [tutti Where people and agents build in tune. ★ 3.6k](https://olud.ai/project/tutti-os-tutti.html)
+- [how-claude-code-works Deep dive into Claude Code internals — architecture, agent loop, context engineering, and more. /… ★ 3.6k](https://olud.ai/project/windy3f3f3f3f-how-claude-code-works.html)
+- [grok-cli An open-source coding agent for the Grok API ★ 3.4k](https://olud.ai/project/superagent-ai-grok-cli.html)
+- [Fuxi FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and… ★ 3.1k](https://olud.ai/project/fuxicodex-fuxi.html)
+- [go-modern-guidelines Help AI coding agents write modern Go ★ 3k](https://olud.ai/project/jetbrains-go-modern-guidelines.html)
+- [cocoindex-code A super light-weight embedded code search engine CLI (AST based) that just works - improves speed and… ★ 2.7k](https://olud.ai/project/cocoindex-io-cocoindex-code.html)
+- [claude-code-from-scratch Build your own Claude Code from scratch. 🔍 Claude Code 开源了 50 万行代码，读不动？用 ~5000… ★ 2.6k](https://olud.ai/project/windy3f3f3f3f-claude-code-from-scratch.html)
+- [fable-method The Fable Workflow: how Claude Fable 5 worked, distilled into skills any model can run, with the eval that… ★ 2.3k](https://olud.ai/project/sahir619-fable-method.html)
+- [agent-teams-ai You're the boss, agents are your team. They handle tasks on their own, message each other, and review each… ★ 2k](https://olud.ai/project/777genius-agent-teams-ai.html)
+- [open-cowork Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills… ★ 2k](https://olud.ai/project/opencoworkai-open-cowork.html)
+- [CoreCoder Minimal AI coding agent (~1,000 lines of Python) inspired by Claude Code. Works with any LLM. Think NanoGPT… ★ 1.7k](https://olud.ai/project/he-yufeng-corecoder.html)
+- [zero The coding agent that answers to you, your model, your machine, your rules. ★ 1.6k](https://olud.ai/project/gitlawb-zero.html)
+- [nimbalyst Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run multiple coding agents… ★ 1.6k](https://olud.ai/project/nimbalyst-nimbalyst.html)
+- [zerostack Lightweight coding agent written in Rust, optimized for memory footprint and performance ★ 1.6k](https://olud.ai/project/gi-dellav-zerostack.html)
+- [cc-safety-net A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common… ★ 1.5k](https://olud.ai/project/kenryu42-cc-safety-net.html)
+- [ai-dev-tools-zoomcamp A free, hands-on course on using AI developer tools to build, test, deploy, extend, and audit software… ★ 1.5k](https://olud.ai/project/datatalksclub-ai-dev-tools-zoomcamp.html)
+- [10x ⚡️ 10x - Up to 20x faster AI coding with multi-step Superpowers. Open-source agent with smart model… ★ 1.4k](https://olud.ai/project/ntegrals-10x.html)
+- [dao-code Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong… ★ 1.3k](https://olud.ai/project/tigicion-dao-code.html)
+- [pi-mcp-adapter Token-efficient MCP adapter for Pi coding agent ★ 1.2k](https://olud.ai/project/nicobailon-pi-mcp-adapter.html)
+- [ouroboros Ouroboros — self-creating AI agent. Born Feb 16, 2026. ★ 1.2k](https://olud.ai/project/razzant-ouroboros.html)
+- [alook Rooms for people and agents. ★ 1.2k](https://olud.ai/project/alookai-alook.html)
+- [pi-from-scratch 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent ★ 1.2k](https://olud.ai/project/saladday-pi-from-scratch.html)
+- [Empryo Empryo issue tracker + SoulForge (v2). Empryo is the graph-powered AI coding agent that edits symbols, not… ★ 1.1k](https://olud.ai/project/proxysoul-empryo.html)
+- [heym Build agentic systems. Run them with confidence. Orchestrate agents, automate business processes, inspect… ★ 1.1k](https://olud.ai/project/heymrun-heym.html)
+- [pydantic-deepagents Open-source, self-hosted Claude Code - a terminal AI assistant and the Python framework behind it.… ★ 1.1k](https://olud.ai/project/vstorm-co-pydantic-deepagents.html)
+- [parallel-code Run Claude Code, Codex, and Gemini side by side — each in its own git worktree ★ 998](https://olud.ai/project/johannesjo-parallel-code.html)
+- [awesome-dsh-plugin A curated list of plugins for DeepSeek Harness (dsh) - DeepSeek Harness plugin ecosystem ★ 991](https://olud.ai/project/anil-matcha-awesome-dsh-plugin.html)
+- [SWE-AF Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test,… ★ 989](https://olud.ai/project/agent-field-swe-af.html)
+- [autoprompt-skill Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks. ★ 949](https://olud.ai/project/spielewoy-autoprompt-skill.html)
+- [CORAL Open-source autoresearch powered by autonomous coding agents. Run Claude Code, OpenCode, and Codex with… ★ 935](https://olud.ai/project/human-agent-society-coral.html)
+- [sandboxd Open-source, self-hosted AI app builder — an agent builds real apps in isolated sandboxes on your own… ★ 924](https://olud.ai/project/tastyeffectco-sandboxd.html)
+- [Whale Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M… ★ 923](https://olud.ai/project/usewhale-whale.html)
+- [how-to-vibecoding Vibecoding 系列教程：从环境搭建到多智能体协作，涵盖 MCP、Skills、Agent 分工治理 ★ 894](https://olud.ai/project/1echa-how-to-vibecoding.html)
+- [soulforge Empryo issue tracker + SoulForge (v2) archive — Empryo is the graph-powered AI coding agent that edits… ★ 877](https://olud.ai/project/proxysoul-soulforge.html)
+- [codegraph-rust 100% Rust implementation of code graphRAG with blazing fast AST+FastML parsing, surrealDB backend and… ★ 872](https://olud.ai/project/jakedismo-codegraph-rust.html)
+- [tty7 A terminal workbench in pure Rust: shells, persistent sessions, SSH, coding agents. GPU-rendered on Zed's… ★ 804](https://olud.ai/project/l0ng-ai-tty7.html)
+- [openyak Open-source local-first AI agent for desktop work. No account, no telemetry: use local models with… ★ 703](https://olud.ai/project/openyak-openyak.html)
+- [agentacct See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files… ★ 682](https://olud.ai/project/mikehasa-agentacct.html)
+- [harnessrouter HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent… ★ 650](https://olud.ai/project/harnessrouter-harnessrouter.html)
+- [kooky A minimal modern terminal for AI coding experience — Sidebar workspaces; horizontal / vertical split panes;… ★ 632](https://olud.ai/project/iamcorey-kooky.html)
+- [agentty AI pair programming in your terminal — one static binary, sub-ms startup, any model ★ 598](https://olud.ai/project/1ay1-agentty.html)
+- [Open-AgentRL RLAnything (ICML 2026) & AutoTool (ICML 2026), DemyAgent: Open-Source RL for LLMs and Agentic Scenarios ★ 585](https://olud.ai/project/gen-verse-open-agentrl.html)
+- [smart-ralph Spec-driven development with smart compaction. Claude Code plugin combining Ralph Wiggum loop with structured… ★ 527](https://olud.ai/project/tzachbon-smart-ralph.html)
+- [MegaMemory Persistent project knowledge graph for coding agents. MCP server with semantic search, in-process embeddings,… ★ 514](https://olud.ai/project/0xk3vin-megamemory.html)
+- [hive Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode collaborate as… ★ 488](https://olud.ai/project/tt-a1i-hive.html)
+- [ospec Spec-driven, agentic workflow framework for AI coding agents. Turn a request into a verifiable goal loop —… ★ 485](https://olud.ai/project/clawplays-ospec.html)
+- [pi-extensions A monorepo of Pi Coding Agent extensions ★ 480](https://olud.ai/project/narumiruna-pi-extensions.html)
+- [talkcody TalkCody - Code is cheap, show me your talk. 🚀 Free Open Source AI Coding Agent. ★ 477](https://olud.ai/project/talkcody-talkcody.html)
+- [10xProductivity Personal AI assistant for work inside corporate constraints, built on coding agents and the tools, sessions,… ★ 472](https://olud.ai/project/zhixiangluo-10xproductivity.html)
+- [opencode-swarm Architect-centric agentic swarm plugin for OpenCode. Hub-and-spoke orchestration with SME consultation, code… ★ 462](https://olud.ai/project/zaxbyhub-opencode-swarm.html)
+- [claudexor Multi-harness control plane for Claude Code, Codex, Cursor, and OpenCode: quota-aware rotation across… ★ 426](https://olud.ai/project/razzant-claudexor.html)
+- [ai4j 一款JavaSDK用于快速接入AI大模型应用，整合多平台大模型，如OpenAi、智谱Zhipu(ChatGLM)… ★ 421](https://olud.ai/project/lnyo-cly-ai4j.html)
+- [rea Reverse engineer anything with agents, from app behavior down to native binaries. ★ 386](https://olud.ai/project/morluto-rea.html)
+- [opencode-primer Master OpenCode, the open-source AI coding agent — setup, agents, skills, plugins, MCP, Zen & headless CI. ★ 381](https://olud.ai/project/wesammustafa-opencode-primer.html)
+- [SubgroupX oiia — hosted agent sessions that execute wherever you point them: a cloud sandbox, an SSH host, or a… ★ 367](https://olud.ai/project/n-wn-subgroupx.html)
+- [amux Open-source control plane for AI coding agents — run, monitor & orchestrate dozens of parallel Claude Code,… ★ 361](https://olud.ai/project/mixpeek-amux.html)
+- [crew44 Orchestrate a crew of specialist AI agents in one local-first workspace. Each role on its best model, with… ★ 358](https://olud.ai/project/getcrew44-crew44.html)
+- [klaatcode Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses… ★ 357](https://olud.ai/project/klaatai-klaatcode.html)
+- [wmux Run Claude Code, Codex & Gemini in parallel on Windows & macOS — git worktree fan-out with atomic hunk… ★ 346](https://olud.ai/project/openwong2kim-wmux.html)
+- [JoySafeter 🚀 JoySafeter: An enterprise AI Agent Platform—Not just chatting. building、running、testing, and… ★ 300](https://olud.ai/project/jd-opensource-joysafeter.html)
+- [umadev UmaDev: A coding agent that works like a real dev team, commanding the Claude Code / Codex / OpenCode you… ★ 256](https://olud.ai/project/umacloud-umadev.html)
+- [guaardvark The self-hosted AI workstation. Autonomous screen agents, 3-tier neural routing, parallel agent swarms, video… ★ 197](https://olud.ai/project/guaardvark-guaardvark.html)
+- [vibepod-cli Unified CLI for running AI coding agents in isolated containers. Includes built-in local metrics collection,… ★ 141](https://olud.ai/project/vibepod-vibepod-cli.html)
+- [dsh-crew DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude Code / Codex — native subagent… ★ 122](https://olud.ai/project/zseven-w-dsh-crew.html)
+- [Bello Codex is great at writing code, but it can drift during long-horizon tasks. Bello keeps it on track, guards… ★ 43](https://olud.ai/project/makson179-bello.html)
+
+🔗 Related families
+- [ai-coding 87](https://olud.ai/dna/ai-coding.html)
+- [terminal 62](https://olud.ai/dna/terminal.html)
+- [agent-orchestration 72](https://olud.ai/dna/agent-orchestration.html)
+- [autonomous-agents 108](https://olud.ai/dna/autonomous-agents.html)
+- [agentic-coding 44](https://olud.ai/dna/agentic-coding.html)
+- [ai-coding-assistant 21](https://olud.ai/dna/ai-coding-assistant.html)
+- [codex-cli 44](https://olud.ai/dna/codex-cli.html)
+- [coding-assistant 32](https://olud.ai/dna/coding-assistant.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.

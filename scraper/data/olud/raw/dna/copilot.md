@@ -1,0 +1,106 @@
+# copilot — DNA families | olud.ai
+
+> 78 projects share this GitHub topic. Measured from GitHub topics shared by both projects, weighted by how rare each topic is.
+
+_Source: https://olud.ai/dna/copilot.html_
+
+---
+
+## copilot
+78 projects share this GitHub topic
+
++−⌂
+
+Lines connect members that are measurably related to each other. Dot size reflects stars.
+
+🧬 Members
+- [system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable,… ★ 143.3k](https://olud.ai/project/x1xhlol-system-prompts-and-models-of-ai-tools.html)
+- [spec-kit 💫 Toolkit to help you get started with Spec-Driven Development ★ 132.6k](https://olud.ai/project/github-spec-kit.html)
+- [ui-ux-pro-max-skill An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. ★ 123.5k](https://olud.ai/project/nextlevelbuilder-ui-ux-pro-max-skill.html)
+- [OmniRoute Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude,… ★ 59.3k](https://olud.ai/project/diegosouzapw-omniroute.html)
+- [OpenMontage World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent… ★ 55k](https://olud.ai/project/calesthio-openmontage.html)
+- [agents Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google… ★ 39.3k](https://olud.ai/project/wshobson-agents.html)
+- [CopilotKit The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI… ★ 37.1k](https://olud.ai/project/copilotkit-copilotkit.html)
+- [awesome-ai-agents A list of AI autonomous agents ★ 29.8k](https://olud.ai/project/e2b-dev-awesome-ai-agents.html)
+- [agentmemory #1 Persistent memory for AI coding agents based on real-world benchmarks ★ 27.9k](https://olud.ai/project/rohitg00-agentmemory.html)
+- [9router Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE… ★ 26.8k](https://olud.ai/project/decolua-9router.html)
+- [context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session… ★ 20.3k](https://olud.ai/project/mksglu-context-mode.html)
+- [paseo Orchestrate multiple coding agents from desktop and mobile ★ 15.7k](https://olud.ai/project/getpaseo-paseo.html)
+- [unity-mcp Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets,… ★ 13.8k](https://olud.ai/project/coplaydev-unity-mcp.html)
+- [E2B Open-source, secure environment with real-world tools for enterprise-grade agents. ★ 13.6k](https://olud.ai/project/e2b-dev-e2b.html)
+- [RemoveWindowsAI Force Remove Copilot, Recall and More in Windows 11 ★ 12.9k](https://olud.ai/project/zoicware-removewindowsai.html)
+- [assistant-ui Typescript/React Library for AI Chat💬🚀 ★ 11.1k](https://olud.ai/project/assistant-ui-assistant-ui.html)
+- [UFO UFO³: Weaving the Digital Agent Galaxy ★ 9.6k](https://olud.ai/project/microsoft-ufo.html)
+- [git-mcp Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project ★ 8.4k](https://olud.ai/project/idosal-git-mcp.html)
+- [obsidian-copilot THE Copilot in Obsidian ★ 7.4k](https://olud.ai/project/logancyang-obsidian-copilot.html)
+- [codecompanion.nvim ✨ AI Coding, Vim Style ★ 6.8k](https://olud.ai/project/olimorris-codecompanion-nvim.html)
+- [LobsterAI Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web… ★ 6k](https://olud.ai/project/netease-youdao-lobsterai.html)
+- [ai-data-science-team An AI-powered data science team of agents to help you perform common data science tasks 10X faster. ★ 5.4k](https://olud.ai/project/business-science-ai-data-science-team.html)
+- [x Craft AI-driven interface effortlessly🤖 ★ 4.7k](https://olud.ai/project/ant-design-x.html)
+- [preswald Preswald is a WASM packager for Python-based interactive data apps: bundle full complex data workflows,… ★ 4.3k](https://olud.ai/project/structuredlabs-preswald.html)
+- [Unity-MCP AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup.… ★ 4k](https://olud.ai/project/ivanmurzak-unity-mcp.html)
+- [claude-octopus Run multiple AI models against the same research, design, or coding task. Surface disagreements before you… ★ 4k](https://olud.ai/project/nyldn-claude-octopus.html)
+- [skill-recorder Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an… ★ 3.7k](https://olud.ai/project/microsoft-skill-recorder.html)
+- [lean-ctx Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one… ★ 3.7k](https://olud.ai/project/yvgude-lean-ctx.html)
+- [agent-academy Curated lessons on getting started building agents with Copilot Studio ★ 3.3k](https://olud.ai/project/microsoft-agent-academy.html)
+- [squad Squad: AI agent teams for any project ★ 3.1k](https://olud.ai/project/bradygaster-squad.html)
+- [amurex World's first AI meeting copilot → The Invisible Companion for Work + Life ★ 2.8k](https://olud.ai/project/thepersonalaicompany-amurex.html)
+- [aide Conquer Any Code in VSCode: One-Click Comments, Conversions, UI-to-Code, and AI Batch Processing of Files!… ★ 2.7k](https://olud.ai/project/nicepkg-aide.html)
+- [jcodemunch-mcp Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code… ★ 2.6k](https://olud.ai/project/jgravelle-jcodemunch-mcp.html)
+- [sketch AI code-writing assistant that understands data content ★ 2.3k](https://olud.ai/project/approximatelabs-sketch.html)
+- [agency-orchestrator 🚀 One sentence → your one-person company of AI experts → complete deliverable in minutes. 267 CN + 184… ★ 2.2k](https://olud.ai/project/jnmetacode-agency-orchestrator.html)
+- [llama.vim Vim plugin for LLM-assisted code/text completion ★ 2.2k](https://olud.ai/project/ggml-org-llama-vim.html)
+- [mcp Official Microsoft Learn MCP Server and CLI tool – powering LLMs and AI agents with real-time, trusted… ★ 1.9k](https://olud.ai/project/microsoftdocs-mcp.html)
+- [mcp-unity Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex,… ★ 1.8k](https://olud.ai/project/codergamester-mcp-unity.html)
+- [SolidGPT Developer AI Persona Search Agent ★ 1.8k](https://olud.ai/project/ai-citizen-solidgpt.html)
+- [docs-mcp-server Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools ★ 1.7k](https://olud.ai/project/arabold-docs-mcp-server.html)
+- [claude-code-settings Curated skills, sub-agents, and config templates that supercharge Claude Code — research, image gen, GitHub… ★ 1.6k](https://olud.ai/project/feiskyer-claude-code-settings.html)
+- [awesome-generative-ai-data-scientist A curated list of 100+ resources for building and deploying generative AI specifically focusing on helping… ★ 1.6k](https://olud.ai/project/business-science-awesome-generative-ai-data-scientist.html)
+- [OpenGenerativeUI Open-Source Generative UI Framework ★ 1.5k](https://olud.ai/project/copilotkit-opengenerativeui.html)
+- [llama.vscode VS Code extension for LLM-assisted code/text completion ★ 1.5k](https://olud.ai/project/ggml-org-llama-vscode.html)
+- [agmsg Cross-vendor messaging for CLI AI coding agents — let Claude Code, Codex, Gemini & Copilot talk to each… ★ 1.5k](https://olud.ai/project/fujibee-agmsg.html)
+- [codesight Universal AI context generator. Saves thousands of tokens per conversation in Claude Code, Cursor, Copilot,… ★ 1.4k](https://olud.ai/project/houseofmvps-codesight.html)
+- [gp.nvim Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text… ★ 1.3k](https://olud.ai/project/robitx-gp-nvim.html)
+- [word-GPT-Plus Word GPT Plus is a word add-in which integrates the AI&Agent into Microsoft Word. ★ 1.3k](https://olud.ai/project/kuingsmile-word-gpt-plus.html)
+- [repobrain 🧠 RepoBrain (formerly Antigravity) — Give your repo a brain. ChatGPT for your codebase: works in Claude… ★ 1.3k](https://olud.ai/project/study8677-repobrain.html)
+- [Windows-Copilot-API Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a… ★ 1.2k](https://olud.ai/project/sums001-windows-copilot-api.html)
+- [optio Workflow orchestration for AI coding agent swarms, from task to merged PR. ★ 1k](https://olud.ai/project/jonwiggins-optio.html)
+- [GrapeRoot Compounding Context for AI Coding Assistants — MCP graph engine for Claude Code, Cursor, Copilot, Gemini,… ★ 1k](https://olud.ai/project/kunal12203-graperoot.html)
+- [Agents The Microsoft 365 Agent SDK simplifies building full stack, multichannel, trusted agents for platforms… ★ 1k](https://olud.ai/project/microsoft-agents.html)
+- [atlassian-mcp-server Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management,… ★ 1k](https://olud.ai/project/atlassian-atlassian-mcp-server.html)
+- [GenAI_LLM_timeline ChatGPT, GenerativeAI and LLMs Timeline ★ 950](https://olud.ai/project/hollobit-genai-llm-timeline.html)
+- [power-bi-agentic-development Power BI AI skills and Power BI agents for Claude Code and GitHub Copilot: a plugin marketplace of Power BI… ★ 885](https://olud.ai/project/data-goblin-power-bi-agentic-development.html)
+- [miyagi Sample to envision intelligent apps with Microsoft's Copilot stack for AI-infused product experiences. ★ 751](https://olud.ai/project/azure-samples-miyagi.html)
+- [agentfiles Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 12 coding tools — from… ★ 739](https://olud.ai/project/railly-agentfiles.html)
+- [GenAIExamples Generative AI Examples is a collection of GenAI examples such as ChatQnA, Copilot, which illustrate the… ★ 733](https://olud.ai/project/opea-project-genaiexamples.html)
+- [memorix Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor,… ★ 707](https://olud.ai/project/avids2-memorix.html)
+- [awesome-agent-skills The definitive resource for Agent Skills - modular capabilities revolutionizing AI agent architecture ★ 666](https://olud.ai/project/skillmatic-ai-awesome-agent-skills.html)
+- [Overture Overture is an open-source, locally running web interface delivered as an MCP (Model Context Protocol) server… ★ 635](https://olud.ai/project/sixhq-overture.html)
+- [are-copilots-local-yet Are Copilots Local Yet? The frontier of local LLM Copilots for code completion, project generation, shell… ★ 601](https://olud.ai/project/erikbjare-are-copilots-local-yet.html)
+- [ai-business-skills 138 bilingual AI marketing skills (69 VN + 69 Global) for Claude Code, OpenCode, Codex, VS Code. Four role… ★ 561](https://olud.ai/project/minhnv0807-ai-business-skills.html)
+- [mco CLI-first orchestration for AI coding agents: run selected agents and models in parallel, compare raw… ★ 507](https://olud.ai/project/mco-org-mco.html)
+- [mcp Enable AI agents to work reliably - giving them secure access to structured data, tools to take action, and… ★ 417](https://olud.ai/project/mondaycom-mcp.html)
+- [maestro Workflow fluency for AI coding agents. 1 core skill · 25 commands · 7 domain references · memory layer ·… ★ 415](https://olud.ai/project/sharpdeveye-maestro.html)
+- [accessibility-agents Accessibility review agents for Claude Code, GitHub Copilot, and Claude Desktop. Eleven specialists that… ★ 403](https://olud.ai/project/community-access-accessibility-agents.html)
+- [agnix The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP.… ★ 400](https://olud.ai/project/agent-sh-agnix.html)
+- [npm-copilot CLI tool for Next.js that can analyze logs in real-time and suggest a solution using OpenAI ★ 376](https://olud.ai/project/whoiskatrin-npm-copilot.html)
+- [full-stack-ai Generate a full-stack Next.js app from an AI prompt ★ 336](https://olud.ai/project/alephmatic-full-stack-ai.html)
+- [rosetta Enforce organizational standards across every AI coding agent ★ 328](https://olud.ai/project/griddynamics-rosetta.html)
+- [notebook-intelligence A JupyterLab extension supporting Claude Code, Copilot, Ollama, and OpenAI-compatible LLMs, with MCP, skills,… ★ 324](https://olud.ai/project/plmbr-notebook-intelligence.html)
+- [bosun Autonomous Engineering ★ 281](https://olud.ai/project/virtengine-bosun.html)
+- [facts Antidote for fluffy specs, a toolkit for fact-driven development with AI agents ★ 200](https://olud.ai/project/av-facts.html)
+- [vibes A simple mobile-focused chat app to talk to an agent via the ACP protocol ★ 187](https://olud.ai/project/rcarmo-vibes.html)
+- [yu-ai-learn 2026 年编程导航 AI 编程实战新项目，基于 Taro + React + FastAPI + DeepSeek 的 AI… ★ 120](https://olud.ai/project/liyupi-yu-ai-learn.html)
+- [ai-megalist Curated index of 200+ AI tools, one writeup per tool with hands-on takes. Covers coding, design, research,… ★ 55](https://olud.ai/project/irtezaasadrizvi-ai-megalist.html)
+
+🔗 Related families
+- [vscode 26](https://olud.ai/dna/vscode.html)
+- [windsurf 20](https://olud.ai/dna/windsurf.html)
+- [gemini-cli 52](https://olud.ai/dna/gemini-cli.html)
+- [github-copilot 32](https://olud.ai/dna/github-copilot.html)
+- [antigravity 37](https://olud.ai/dna/antigravity.html)
+- [gpt-4 119](https://olud.ai/dna/gpt-4.html)
+- [ai-coding 87](https://olud.ai/dna/ai-coding.html)
+- [qwen 74](https://olud.ai/dna/qwen.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.

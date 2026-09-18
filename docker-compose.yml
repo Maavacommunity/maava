@@ -1,6 +1,8 @@
 # Local dev only. Production uses AWS RDS (see infra/) — this just mirrors
 # Postgres locally so services/api, scraper, and pipelines can run against
-# something without touching real infra.
+# something without touching real infra. dynamodb-local is a scoped
+# exception for the scraper/olud + services/olud-api pipeline, which uses
+# DynamoDB instead of Postgres.
 services:
   postgres:
     image: postgres:16-alpine
@@ -14,5 +16,16 @@ services:
     volumes:
       - maava-postgres-data:/var/lib/postgresql/data
 
+  dynamodb-local:
+    image: amazon/dynamodb-local:latest
+    container_name: maava-dynamodb-local
+    command: ["-jar", "DynamoDBLocal.jar", "-sharedDb", "-dbPath", "/home/dynamodblocal/data"]
+    working_dir: /home/dynamodblocal
+    ports:
+      - "8000:8000"
+    volumes:
+      - maava-dynamodb-data:/home/dynamodblocal/data
+
 volumes:
   maava-postgres-data:
+  maava-dynamodb-data:

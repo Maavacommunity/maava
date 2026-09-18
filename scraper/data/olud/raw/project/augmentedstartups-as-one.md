@@ -1,0 +1,129 @@
+# AS-One — Easy & Modular Computer Vision Detectors, Trackers &… | olud.ai
+
+> Run various object detection and tracking models with just a few lines of code in Python (GPL-3.0, 2022). 612 stars on GitHub.
+
+_Source: https://olud.ai/project/augmentedstartups-as-one.html_
+
+---
+
+[Home](https://olud.ai/)›
+[Projects](https://olud.ai/projects.html)›
+AS-One
+
+AS-One
+
+[Python](https://olud.ai/language/python.html)
+
+## AS-One
+
+Easy & Modular Computer Vision Detectors, Trackers & SAM - Run YOLOv9,v8,v7,v6,v5,R,X in under 10 lines of code.
+
+by **augmentedstartups** · GitHub
+
+[612](https://olud.ai/most-starred.html)
+
+Stars
+
+[106](https://olud.ai/most-forked.html)
+
+Forks
+
+[GPL-3.0](https://olud.ai/license/gpl-3-0.html)
+
+License
+
+[2022](https://olud.ai/year/2022.html)
+
+Created
+
+[2 yr ago](https://olud.ai/recently-updated.html)
+
+Last commit
+
+[computer-vision](https://olud.ai/projects.html?cat=computer-vision)
+
+Category
+
+[Python](https://olud.ai/language/python.html)
+
+Language
+- [computer-vision](https://olud.ai/projects.html?cat=computer-vision)
+- [deep-learning](https://olud.ai/projects.html?cat=deep-learning)
+- [object-detection](https://olud.ai/dna/object-detection.html)
+GPL-3.0
+- [Python](https://olud.ai/language/python.html)
+
+[View on GitHub](https://github.com/augmentedstartups/AS-One)
+
+𝕏  X / Twitter
+
+🔗  Copy link
+
+In plain wordsRun various object detection and tracking models with just a few lines of code in Python.
+
+You maintain this project?
+
+Claim its page: indexed whatever its rank, translated into six languages, and enriched with what you write yourself.
+
+[Claim this page →](https://olud.ai/claim.html?repo=augmentedstartups%2FAS-One)
+
+📈 Star history
+
+2026-07-202026-08-31
+
+📈 Track AS-One
+
+Get an email alert on its next release or when it starts trending — never miss the moment.
+
+Free · no card · unsubscribe anytime
+
+[Get email alerts →](https://olud.ai/account.html)
+
+📄 About
+
+Easy & Modular Computer Vision Detectors, Trackers & SAM - Run YOLOv9,v8,v7,v6,v5,R,X in under 10 lines of code.
+
+AS-One has 612 stars on GitHub. It has been forked 106 times. AS-One is written mainly in Python. It has been in active development since 2022. AS-One is available under the GPL-3.0 license. Its main topics are computer-vision, deep-learning, object-detection, opencv.
+
+📦 Latest release
+
+❓ Frequently asked questions
+
+#### What is AS-One?
+Easy & Modular Computer Vision Detectors, Trackers & SAM - Run YOLOv9,v8,v7,v6,v5,R,X in under 10 lines of code.
+
+#### Is AS-One open source?
+AS-One is an open-source project. It is released under the GPL-3.0 license.
+
+#### Is AS-One free?
+Yes. AS-One is free and open source — you can use, modify and self-host it. Its GPL-3.0 license is copyleft: if you distribute a modified version, it must remain under the same license.
+
+#### What license does AS-One use?
+AS-One is available under the GPL-3.0 license.
+
+#### What language is AS-One written in?
+AS-One is written mainly in Python.
+
+🏅 Maintainer of this project?
+
+olud.ai badge — AS-One
+Add this live badge to your README — your GitHub stars and directory rank, refreshed daily.
+
+`[![olud.ai](https://olud.ai/badge.php?tool=augmentedstartups-as-one)](https://olud.ai/project/augmentedstartups-as-one.html)`
+Copy Markdown
+
+[More badge options →](https://olud.ai/badge.html)
+
+🧬 Shares DNA with[🧬 View the DNA map →](https://olud.ai/dna/object-detection.html)
+- [Traffic-Signal-Violation-Detection-System A Computer Vision based Traffic Signal Violation Detection System from video footage using YOLO… ★ 485 · computer-vision sharesopencvobject-detection](https://olud.ai/project/anmspro-traffic-signal-violation-detection-system.html)
+- [YOLOX-ROS YOLOX + ROS2 object detection package (C++ only support) ★ 322 · humble sharesopencvobject-detection](https://olud.ai/project/ar-ray-code-yolox-ros.html)
+- [OpenCV ✅（已完结）超级全面的 OpenCV 笔记【咕泡唐宇迪】 ★ 676 · computer-vision sharesopencv](https://olud.ai/project/accumulatemore-opencv.html)
+- [PreciseRoIPooling Precise RoI Pooling with coordinate gradient support, proposed in the paper "Acquisition of Loc… ★ 781 · computer-vision sharesobject-detection](https://olud.ai/project/vacancy-preciseroipooling.html)
+- [DeFCN End-to-End Object Detection with Fully Convolutional Network ★ 494 · computer-vision sharesobject-detection](https://olud.ai/project/megvii-basedetection-defcn.html)
+- [lvis-api Python API for LVIS Dataset ★ 430 · computer-vision sharesobject-detection](https://olud.ai/project/lvis-dataset-lvis-api.html)
+- [mscnn Caffe implementation of our multi-scale object detection framework ★ 408 · autonomous-driving sharesobject-detection](https://olud.ai/project/zhaoweicai-mscnn.html)
+- [DINO [ICLR 2023] Official implementation of the paper "DINO: DETR with Improved DeNoising Anchor Box… ★ 2.8k · computer-vision sharesobject-detection](https://olud.ai/project/idea-research-dino.html)
+- [FastestDet :zap: A newly designed ultra lightweight anchor free target detection algorithm， weight only 25… ★ 856 · computer-vision sharesobject-detection](https://olud.ai/project/dog-qiuqiu-fastestdet.html)
+- [CenterNet-better An easy to understand and better performance version of CenterNet ★ 545 · computer-vision sharesobject-detection](https://olud.ai/project/fatescript-centernet-better.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.

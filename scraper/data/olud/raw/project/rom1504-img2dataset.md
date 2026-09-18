@@ -1,0 +1,129 @@
+# img2dataset — Easily turn large sets of image urls to an image dat… | olud.ai
+
+> Download and organize large sets of images from the internet into a dataset. Easily turn large sets of image urls to an (MIT, 2021). 4.4k stars on GitHub.
+
+_Source: https://olud.ai/project/rom1504-img2dataset.html_
+
+---
+
+[Home](https://olud.ai/)›
+[Projects](https://olud.ai/projects.html)›
+img2dataset
+
+img2dataset
+
+[Python](https://olud.ai/language/python.html)
+
+## img2dataset
+
+Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine.
+
+by **rom1504** · GitHub
+
+[4.4k](https://olud.ai/most-starred.html)
+
+Stars
+
+[375](https://olud.ai/most-forked.html)
+
+Forks
+
+[MIT](https://olud.ai/license/mit.html)
+
+License
+
+[2021](https://olud.ai/year/2021.html)
+
+Created
+
+[10 mo ago](https://olud.ai/recently-updated.html)
+
+Last commit
+
+[big-data](https://olud.ai/dna/big-data.html)
+
+Category
+
+[Python](https://olud.ai/language/python.html)
+
+Language
+- [big-data](https://olud.ai/dna/big-data.html)
+- [dataset](https://olud.ai/projects.html?cat=dataset)
+- [deep-learning](https://olud.ai/projects.html?cat=deep-learning)
+MIT
+- [Python](https://olud.ai/language/python.html)
+
+[View on GitHub](https://github.com/rom1504/img2dataset)
+
+𝕏  X / Twitter
+
+🔗  Copy link
+
+In plain wordsDownload and organize large sets of images from the internet into a dataset.
+
+You maintain this project?
+
+Claim its page: indexed whatever its rank, translated into six languages, and enriched with what you write yourself.
+
+[Claim this page →](https://olud.ai/claim.html?repo=rom1504%2Fimg2dataset)
+
+📈 Star history
+
+2026-07-072026-08-31
+
+📈 Track img2dataset
+
+Get an email alert on its next release or when it starts trending — never miss the moment.
+
+Free · no card · unsubscribe anytime
+
+[Get email alerts →](https://olud.ai/account.html)
+
+📄 About
+
+Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine.
+
+img2dataset has 4.4k stars on GitHub. It has been forked 375 times. img2dataset is written mainly in Python. It has been in active development since 2021. img2dataset is available under the MIT license. Its main topics are big-data, dataset, deep-learning, download-images.
+
+📦 Latest release
+
+❓ Frequently asked questions
+
+#### What is img2dataset?
+Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine.
+
+#### Is img2dataset open source?
+img2dataset is an open-source project. It is released under the MIT license.
+
+#### Is img2dataset free?
+Yes. img2dataset is free and open source — you can use, modify and self-host it.
+
+#### What license does img2dataset use?
+img2dataset is available under the MIT license.
+
+#### What language is img2dataset written in?
+img2dataset is written mainly in Python.
+
+🏅 Maintainer of this project?
+
+olud.ai badge — img2dataset
+Add this live badge to your README — your GitHub stars and directory rank, refreshed daily.
+
+`[![olud.ai](https://olud.ai/badge.php?tool=rom1504-img2dataset)](https://olud.ai/project/rom1504-img2dataset.html)`
+Copy Markdown
+
+[More badge options →](https://olud.ai/badge.html)
+
+🧬 Shares DNA with[🧬 View the DNA map →](https://olud.ai/dna/big-data.html)
+- [cc2dataset Easily convert common crawl to a dataset of caption and document. Image/text Audio/text Video/t… ★ 321 · big-data sharesbig-data](https://olud.ai/project/rom1504-cc2dataset.html)
+- [vespa The AI search platform ★ 7k · ai sharesbig-data](https://olud.ai/project/vespa-engine-vespa.html)
+- [h2o-3 H2O is an Open Source, Distributed, Fast & Scalable Machine Learning Platform: Deep Learning, G… ★ 7.5k · automl sharesbig-data](https://olud.ai/project/h2oai-h2o-3.html)
+- [ClickHouse ClickHouse® is a real-time analytics database management system ★ 48.7k · ai sharesbig-data](https://olud.ai/project/clickhouse-clickhouse.html)
+- [SynapseML Simple and Distributed Machine Learning ★ 5.2k · ai sharesbig-data](https://olud.ai/project/microsoft-synapseml.html)
+- [data-science-ipython-notebooks Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn,… ★ 29.2k · aws sharesbig-data](https://olud.ai/project/donnemartin-data-science-ipython-notebooks.html)
+- [spark-py-notebooks Apache Spark & Python (pySpark) tutorials for Big Data Analysis and Machine Learning as IPython… ★ 1.7k · big-data sharesbig-data](https://olud.ai/project/jadianes-spark-py-notebooks.html)
+- [feast The Open Source Feature Store for AI/ML ★ 7.1k · big-data sharesbig-data](https://olud.ai/project/feast-dev-feast.html)
+- [gun An open source cybersecurity protocol for syncing decentralized graph data. ★ 19.1k · artificial-intelligence sharesbig-data](https://olud.ai/project/amark-gun.html)
+- [reductstore High Performance Data Backbone for Robotics and Industrial IoT ★ 363 · ai sharesbig-data](https://olud.ai/project/reductstore-reductstore.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.

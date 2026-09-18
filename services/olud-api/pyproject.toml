@@ -1,0 +1,29 @@
+[project]
+name = "maava-olud-api"
+version = "0.0.0"
+description = "Read-only API over the scraped olud.ai mirror, backed by DynamoDB"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "mangum>=0.19.0",
+    "uvicorn[standard]>=0.30.0",
+    "boto3>=1.35.0",
+    "pydantic-settings>=2.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "httpx>=0.27.0",
+    "ruff>=0.6.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.ruff]
+line-length = 100

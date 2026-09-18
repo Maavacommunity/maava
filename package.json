@@ -9,6 +9,7 @@
   "scripts": {
     "dev:frontend": "pnpm --filter frontend dev",
     "dev:desktop": "pnpm --filter desktop dev",
+    "dev:olud-viewer": "pnpm --filter olud-viewer dev",
     "build": "pnpm -r --if-present build",
     "lint": "pnpm -r --if-present lint",
     "typecheck": "pnpm -r --if-present typecheck",

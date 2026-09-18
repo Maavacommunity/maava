@@ -1,0 +1,106 @@
+# cuda — DNA families | olud.ai
+
+> 78 projects share this GitHub topic. Measured from GitHub topics shared by both projects, weighted by how rare each topic is.
+
+_Source: https://olud.ai/dna/cuda.html_
+
+---
+
+## cuda
+78 projects share this GitHub topic
+
++−⌂
+
+Lines connect members that are measurably related to each other. Dot size reflects stars.
+
+🧬 Members
+- [vllm A high-throughput and memory-efficient inference and serving engine for LLMs ★ 90.6k](https://olud.ai/project/vllm-project-vllm.html)
+- [voicebox The open-source AI voice studio. Clone, dictate, create. ★ 52k](https://olud.ai/project/jamiepine-voicebox.html)
+- [sglang SGLang is a high-performance serving framework for large language models and multimodal models. ★ 33k](https://olud.ai/project/sgl-project-sglang.html)
+- [instant-ngp Instant neural graphics primitives: lightning fast NeRF and more ★ 17.5k](https://olud.ai/project/nvlabs-instant-ngp.html)
+- [burn Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility,… ★ 15.6k](https://olud.ai/project/tracel-ai-burn.html)
+- [kaldi kaldi-asr/kaldi is the official location of the Kaldi project. ★ 15.4k](https://olud.ai/project/kaldi-asr-kaldi.html)
+- [TensorRT-LLM TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and… ★ 14.5k](https://olud.ai/project/nvidia-tensorrt-llm.html)
+- [GPU-Puzzles Solve puzzles. Learn CUDA. ★ 12.3k](https://olud.ai/project/srush-gpu-puzzles.html)
+- [LMCache LMCache: Supercharge Your LLM with the Fastest KV Cache Layer ★ 11.6k](https://olud.ai/project/lmcache-lmcache.html)
+- [cutlass CUDA Templates and Python DSLs for High-Performance Linear Algebra ★ 10.1k](https://olud.ai/project/nvidia-cutlass.html)
+- [cog Containers for machine learning ★ 9.4k](https://olud.ai/project/replicate-cog.html)
+- [oneflow OneFlow is a deep learning framework designed to be user-friendly, scalable and efficient. ★ 9.4k](https://olud.ai/project/oneflow-inc-oneflow.html)
+- [gocv Go package for computer vision using OpenCV 4 and beyond. Includes support for DNN, CUDA, OpenCV Contrib, and… ★ 7.5k](https://olud.ai/project/hybridgroup-gocv.html)
+- [flashinfer FlashInfer: Kernel Library for LLM Serving ★ 6.3k](https://olud.ai/project/flashinfer-ai-flashinfer.html)
+- [chainer A flexible framework of neural networks for deep learning ★ 5.9k](https://olud.ai/project/chainer-chainer.html)
+- [gpustack A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU… ★ 5.6k](https://olud.ai/project/gpustack-gpustack.html)
+- [cuml cuML - RAPIDS Machine Learning Library ★ 5.2k](https://olud.ai/project/rapidsai-cuml.html)
+- [nccl Optimized primitives for collective multi-GPU communication ★ 4.9k](https://olud.ai/project/nvidia-nccl.html)
+- [CTranslate2 Fast inference engine for Transformer models ★ 4.6k](https://olud.ai/project/opennmt-ctranslate2.html)
+- [tiny-cuda-nn Lightning fast C++/CUDA neural network framework ★ 4.5k](https://olud.ai/project/nvlabs-tiny-cuda-nn.html)
+- [iree A retargetable MLIR-based machine learning compiler and runtime toolkit. ★ 3.8k](https://olud.ai/project/iree-org-iree.html)
+- [SageAttention [ICLR2025, ICML2025, NeurIPS2025 Spotlight] Quantized Attention achieves speedup of 2-5x compared to… ★ 3.7k](https://olud.ai/project/thu-ml-sageattention.html)
+- [TransformerEngine A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point… ★ 3.4k](https://olud.ai/project/nvidia-transformerengine.html)
+- [LichtFeld-Studio Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application. ★ 3.4k](https://olud.ai/project/mrnerf-lichtfeld-studio.html)
+- [how-to-optim-algorithm-in-cuda how to optimize some algorithm in cuda. ★ 3.2k](https://olud.ai/project/bbuf-how-to-optim-algorithm-in-cuda.html)
+- [jittor Jittor is a high-performance deep learning framework based on JIT compiling and meta-operators. ★ 3.2k](https://olud.ai/project/jittor-jittor.html)
+- [skills Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical… ★ 3.2k](https://olud.ai/project/nvidia-skills.html)
+- [heavydb HeavyDB (formerly MapD/OmniSciDB) ★ 3.1k](https://olud.ai/project/heavyai-heavydb.html)
+- [ramalama RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and… ★ 3k](https://olud.ai/project/containers-ramalama.html)
+- [TensorRT PyTorch/TorchScript/FX compiler for NVIDIA GPUs using TensorRT ★ 3k](https://olud.ai/project/pytorch-tensorrt.html)
+- [CVprojects computer vision projects | 计算机视觉相关好玩的AI项目（Python、C++、embedded system） ★ 2.6k](https://olud.ai/project/enpeizhao-cvprojects.html)
+- [torchrec Pytorch domain library for recommendation systems ★ 2.6k](https://olud.ai/project/meta-pytorch-torchrec.html)
+- [node-llama-cpp Run AI models locally on your machine with node.js bindings for llama.cpp. Enforce a JSON schema on the model… ★ 2.2k](https://olud.ai/project/withcatai-node-llama-cpp.html)
+- [pykeen 🤖 A Python library for learning and evaluating knowledge graph embeddings ★ 2k](https://olud.ai/project/pykeen-pykeen.html)
+- [onediff OneDiff: An out-of-the-box acceleration library for diffusion models. ★ 2k](https://olud.ai/project/siliconflow-onediff.html)
+- [sonar Large-scale LLM inference engine ★ 1.8k](https://olud.ai/project/dphnai-sonar.html)
+- [ppq PPL Quantization Tool (PPQ) is a powerful offline neural network quantization tool. ★ 1.8k](https://olud.ai/project/openppl-ppq.html)
+- [awesome-yolo-object-detection 🚀🚀🚀 A collection of some awesome public YOLO object detection series projects and the related object… ★ 1.8k](https://olud.ai/project/coderonion-awesome-yolo-object-detection.html)
+- [beta9 Ultrafast serverless GPU inference, sandboxes, and background jobs ★ 1.8k](https://olud.ai/project/beam-cloud-beta9.html)
+- [curobo CUDA Accelerated Robot Library ★ 1.7k](https://olud.ai/project/nvlabs-curobo.html)
+- [tt-metal :metal: TT-NN operator library, and TT-Metalium low level kernel programming model. ★ 1.7k](https://olud.ai/project/tenstorrent-tt-metal.html)
+- [gpu-hot 🔥 Real-time NVIDIA GPU dashboard ★ 1.6k](https://olud.ai/project/psalias2006-gpu-hot.html)
+- [InferenceX Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 -… ★ 1.6k](https://olud.ai/project/semianalysisai-inferencex.html)
+- [3d-ken-burns an implementation of 3D Ken Burns Effect from a Single Image using PyTorch ★ 1.6k](https://olud.ai/project/sniklaus-3d-ken-burns.html)
+- [uccl UCCL is an efficient communication library for GPUs, covering collectives, P2P (e.g., KV cache transfer, RL… ★ 1.5k](https://olud.ai/project/uccl-project-uccl.html)
+- [stable-fast https://wavespeed.ai/ Best inference performance optimization framework for HuggingFace Diffusers on NVIDIA… ★ 1.3k](https://olud.ai/project/chengzeyi-stable-fast.html)
+- [tiny-vllm Build your own high performance LLM inference engine in C++ and CUDA - a smaller version of vLLM ★ 1.1k](https://olud.ai/project/jmaczan-tiny-vllm.html)
+- [cupoch Robotics with GPU computing ★ 1.1k](https://olud.ai/project/neka-nat-cupoch.html)
+- [ZhiLight A highly optimized LLM inference acceleration engine for Llama and its variants. ★ 905](https://olud.ai/project/zhihu-zhilight.html)
+- [gprMax gprMax is open source software that simulates electromagnetic wave propagation using the Finite-Difference… ★ 861](https://olud.ai/project/gprmax-gprmax.html)
+- [UniLab UniLab: A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms ★ 842](https://olud.ai/project/unilabsim-unilab.html)
+- [Savant Python Computer Vision & Video Analytics Framework With Batteries Included ★ 837](https://olud.ai/project/insight-platform-savant.html)
+- [surogate Training/Fine-tuning at the speed of light ★ 813](https://olud.ai/project/invergent-ai-surogate.html)
+- [GPUMD Graphics Processing Units Molecular Dynamics ★ 811](https://olud.ai/project/brucefan1983-gpumd.html)
+- [ServerlessLLM Serverless LLM Serving for Everyone. ★ 711](https://olud.ai/project/serverlessllm-serverlessllm.html)
+- [chatterbox-tts-api Local, OpenAI-compatible text-to-speech (TTS) API using Chatterbox, enabling users to generate voice cloned… ★ 625](https://olud.ai/project/travisvn-chatterbox-tts-api.html)
+- [vins-application VINS-Fusion, VINS-Fisheye, OpenVINS, EnVIO, ROVIO, S-MSCKF, ORB-SLAM2, NVIDIA Elbrus application of different… ★ 607](https://olud.ai/project/engcang-vins-application.html)
+- [attorch A subset of PyTorch's neural network modules, written in Python using OpenAI's Triton. ★ 606](https://olud.ai/project/bobmcdear-attorch.html)
+- [atlas Pure Rust Inference Engine ★ 601](https://olud.ai/project/avarok-cybersecurity-atlas.html)
+- [llm_training_handbook An open collection of methodologies to help with successful training of large language models. ★ 567](https://olud.ai/project/huggingface-llm-training-handbook.html)
+- [radarsimpy Radar Simulator built with Python and C++ ★ 560](https://olud.ai/project/radarsimx-radarsimpy.html)
+- [willow-inference-server Open source, local, and self-hosted highly optimized language inference server supporting ASR/STT, TTS, and… ★ 508](https://olud.ai/project/toverainc-willow-inference-server.html)
+- [large_language_model_training_playbook An open collection of implementation tips, tricks and resources for training large language models ★ 505](https://olud.ai/project/huggingface-large-language-model-training-playbook.html)
+- [popsift PopSift is an implementation of the SIFT algorithm in CUDA. ★ 498](https://olud.ai/project/alicevision-popsift.html)
+- [cucim cuCIM - RAPIDS GPU-accelerated image processing library ★ 463](https://olud.ai/project/rapidsai-cucim.html)
+- [hoomd-blue Molecular dynamics and Monte Carlo soft matter simulation on GPUs. ★ 444](https://olud.ai/project/glotzerlab-hoomd-blue.html)
+- [dynamicfusion Implementation of Newcombe et al. CVPR 2015 DynamicFusion paper ★ 413](https://olud.ai/project/mihaibujanca-dynamicfusion.html)
+- [splatad SplatAD: Real-Time Lidar and Camera Rendering with 3D Gaussian Splatting for Autonomous Driving ★ 406](https://olud.ai/project/carlinds-splatad.html)
+- [TensorSharp A native .NET LLM inference engine for GGUF models. TensorSharp provides a console application, a web-based… ★ 388](https://olud.ai/project/zhongkaifu-tensorsharp.html)
+- [MFC Exascale multiphase flow solver — 2025 Gordon Bell Prize Finalist | 200T grid points on 43K+ GPUs ★ 386](https://olud.ai/project/mflowcode-mfc.html)
+- [Dia-TTS-Server Self-host the powerful Dia TTS model. This server offers a user-friendly Web UI, flexible API endpoints… ★ 352](https://olud.ai/project/devnen-dia-tts-server.html)
+- [swiftLLM A tiny yet powerful LLM inference system tailored for researching purpose. vLLM-equivalent performance with… ★ 329](https://olud.ai/project/interestinglsy-swiftllm.html)
+- [dynamic-occupancy-grid-map Implementation of "A Random Finite Set Approach for Dynamic Occupancy Grid Maps with Real-Time Application" ★ 310](https://olud.ai/project/thecodez-dynamic-occupancy-grid-map.html)
+- [Amadeus Real-time multimodal desktop agent evolving toward a persistent AI OS interface (0.1 α). ★ 171](https://olud.ai/project/code-amadeus-amadeus.html)
+- [self-hosted-ai-stack Deploy a complete self-hosted AI stack with Docker Compose: Ollama, LiteLLM, AnythingLLM, Whisper,… ★ 141](https://olud.ai/project/hwdsl2-self-hosted-ai-stack.html)
+- [sndr_core_engine SNDR Core Engine (Genesis) — vLLM runtime patch-overlay for Qwen3.6 + Gemma4 on consumer NVIDIA (Ampere… ★ 131](https://olud.ai/project/sandermage-sndr-core-engine.html)
+- [trellis2.c Generate textured, segmented and rigged GLB assets entirely on your own GPU. ★ 56](https://olud.ai/project/wimacs-trellis2-c.html)
+- [dgx-spark-inference-stack Serve the home! Inference stack for your Nvidia DGX Spark aka the Grace Blackwell AI supercomputer on your… ★ 51](https://olud.ai/project/jdaln-dgx-spark-inference-stack.html)
+
+🔗 Related families
+- [gpu 59](https://olud.ai/dna/gpu.html)
+- [inference 74](https://olud.ai/dna/inference.html)
+- [qwen 74](https://olud.ai/dna/qwen.html)
+- [vllm 35](https://olud.ai/dna/vllm.html)
+- [moe 13](https://olud.ai/dna/moe.html)
+- [llm-inference 65](https://olud.ai/dna/llm-inference.html)
+- [nvidia 19](https://olud.ai/dna/nvidia.html)
+- [amd 12](https://olud.ai/dna/amd.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.

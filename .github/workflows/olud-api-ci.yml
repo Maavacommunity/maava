@@ -1,0 +1,50 @@
+name: olud-api-ci
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "services/olud-api/**"
+      - ".github/workflows/olud-api-ci.yml"
+  pull_request:
+    paths:
+      - "services/olud-api/**"
+      - ".github/workflows/olud-api-ci.yml"
+
+defaults:
+  run:
+    working-directory: services/olud-api
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install .[dev]
+      - run: ruff check .
+      - run: pytest
+
+  build-lambda-package:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Builds the deployment package Terraform would zip up in infra/lambda.tf.
+      - run: |
+          mkdir -p build
+          pip install . --target build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: olud-api-lambda-package
+          path: services/olud-api/build

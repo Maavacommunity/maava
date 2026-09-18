@@ -1,0 +1,129 @@
+# yolov3-tf2 — YoloV3 Implemented in Tensorflow 2.0 | olud.ai
+
+> Detect objects in images using a well-structured implementation of YoloV3 in TensorFlow. YoloV3 Implemented in Tensorflow (MIT, 2019). 2.5k stars on GitHub.
+
+_Source: https://olud.ai/project/zzh8829-yolov3-tf2.html_
+
+---
+
+[Home](https://olud.ai/)›
+[Projects](https://olud.ai/projects.html)›
+yolov3-tf2
+
+yolov3-tf2
+
+[Jupyter Notebook](https://olud.ai/language/jupyter-notebook.html)
+
+## yolov3-tf2
+
+YoloV3 Implemented in Tensorflow 2.0
+
+by **zzh8829** · GitHub
+
+[2.5k](https://olud.ai/most-starred.html)
+
+Stars
+
+[890](https://olud.ai/most-forked.html)
+
+Forks
+
+[MIT](https://olud.ai/license/mit.html)
+
+License
+
+[2019](https://olud.ai/year/2019.html)
+
+Created
+
+[2 yr ago](https://olud.ai/recently-updated.html)
+
+Last commit
+
+[deep-learning](https://olud.ai/projects.html?cat=deep-learning)
+
+Category
+
+[Jupyter Notebook](https://olud.ai/language/jupyter-notebook.html)
+
+Language
+- [deep-learning](https://olud.ai/projects.html?cat=deep-learning)
+- [machine-learning](https://olud.ai/projects.html?cat=machine-learning)
+- [neural-network](https://olud.ai/projects.html?cat=neural-network)
+MIT
+- [Jupyter Notebook](https://olud.ai/language/jupyter-notebook.html)
+
+[View on GitHub](https://github.com/zzh8829/yolov3-tf2)
+
+𝕏  X / Twitter
+
+🔗  Copy link
+
+In plain wordsDetect objects in images using a well-structured implementation of YoloV3 in TensorFlow.
+
+You maintain this project?
+
+Claim its page: indexed whatever its rank, translated into six languages, and enriched with what you write yourself.
+
+[Claim this page →](https://olud.ai/claim.html?repo=zzh8829%2Fyolov3-tf2)
+
+📈 Star history
+
+2026-07-072026-08-31
+
+📈 Track yolov3-tf2
+
+Get an email alert on its next release or when it starts trending — never miss the moment.
+
+Free · no card · unsubscribe anytime
+
+[Get email alerts →](https://olud.ai/account.html)
+
+📄 About
+
+YoloV3 Implemented in Tensorflow 2.0
+
+yolov3-tf2 has 2.5k stars on GitHub. It has been forked 890 times. yolov3-tf2 is written mainly in Jupyter Notebook. It has been in active development since 2019. yolov3-tf2 is available under the MIT license. Its main topics are deep-learning, machine-learning, neural-network, object-detection.
+
+📦 Latest release
+
+❓ Frequently asked questions
+
+#### What is yolov3-tf2?
+YoloV3 Implemented in Tensorflow 2.0
+
+#### Is yolov3-tf2 open source?
+yolov3-tf2 is an open-source project. It is released under the MIT license.
+
+#### Is yolov3-tf2 free?
+Yes. yolov3-tf2 is free and open source — you can use, modify and self-host it.
+
+#### What license does yolov3-tf2 use?
+yolov3-tf2 is available under the MIT license.
+
+#### What language is yolov3-tf2 written in?
+yolov3-tf2 is written mainly in Jupyter Notebook.
+
+🏅 Maintainer of this project?
+
+olud.ai badge — yolov3-tf2
+Add this live badge to your README — your GitHub stars and directory rank, refreshed daily.
+
+`[![olud.ai](https://olud.ai/badge.php?tool=zzh8829-yolov3-tf2)](https://olud.ai/project/zzh8829-yolov3-tf2.html)`
+Copy Markdown
+
+[More badge options →](https://olud.ai/badge.html)
+
+🧬 Shares DNA with[🧬 View the DNA map →](https://olud.ai/dna/object-detection.html)
+- [PreciseRoIPooling Precise RoI Pooling with coordinate gradient support, proposed in the paper "Acquisition of Loc… ★ 781 · computer-vision sharesobject-detection](https://olud.ai/project/vacancy-preciseroipooling.html)
+- [DeFCN End-to-End Object Detection with Fully Convolutional Network ★ 494 · computer-vision sharesobject-detection](https://olud.ai/project/megvii-basedetection-defcn.html)
+- [lvis-api Python API for LVIS Dataset ★ 430 · computer-vision sharesobject-detection](https://olud.ai/project/lvis-dataset-lvis-api.html)
+- [mscnn Caffe implementation of our multi-scale object detection framework ★ 408 · autonomous-driving sharesobject-detection](https://olud.ai/project/zhaoweicai-mscnn.html)
+- [DINO [ICLR 2023] Official implementation of the paper "DINO: DETR with Improved DeNoising Anchor Box… ★ 2.8k · computer-vision sharesobject-detection](https://olud.ai/project/idea-research-dino.html)
+- [FastestDet :zap: A newly designed ultra lightweight anchor free target detection algorithm， weight only 25… ★ 856 · computer-vision sharesobject-detection](https://olud.ai/project/dog-qiuqiu-fastestdet.html)
+- [CenterNet-better An easy to understand and better performance version of CenterNet ★ 545 · computer-vision sharesobject-detection](https://olud.ai/project/fatescript-centernet-better.html)
+- [OpenCVTutorials OpenCV-Python4.1 中文文档 ★ 1.4k · computer-vision sharesobject-detection](https://olud.ai/project/fendouai-opencvtutorials.html)
+- [object-detection-opencv YOLO Object detection with OpenCV and Python. ★ 509 · computer-vision sharesobject-detection](https://olud.ai/project/arunponnusamy-object-detection-opencv.html)
+- [SSD High quality, fast, modular reference implementation of SSD in PyTorch ★ 1.6k · computer-vision sharesobject-detection](https://olud.ai/project/lufficc-ssd.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.

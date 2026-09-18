@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>olud.ai mirror</title>
+<style>
+  :root {
+    --bg: #0b0d12; --panel: #12151c; --border: #232733; --text: #e6e8ee;
+    --muted: #8b91a3; --accent: #6ea8ff; --accent-dim: #2a3a55;
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Inter, Roboto, sans-serif;
+         background: var(--bg); color: var(--text); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .layout { display: grid; grid-template-columns: 220px 1fr; min-height: 100vh; }
+
+  nav.sidebar { background: var(--panel); border-right: 1px solid var(--border);
+                padding: 20px 12px; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
+  nav.sidebar h1 { font-size: 15px; padding: 0 8px 16px; color: var(--text); }
+  nav.sidebar h1 span { color: var(--muted); font-weight: 400; }
+  nav.sidebar .item { display: flex; justify-content: space-between; padding: 9px 10px;
+                       border-radius: 8px; cursor: pointer; color: var(--muted); font-size: 14px; }
+  nav.sidebar .item:hover { background: var(--accent-dim); color: var(--text); }
+  nav.sidebar .item.active { background: var(--accent-dim); color: var(--accent); }
+  nav.sidebar .count { font-variant-numeric: tabular-nums; opacity: .7; }
+
+  main { padding: 24px 32px; max-width: 1200px; }
+  .toolbar { display: flex; gap: 10px; margin-bottom: 20px; align-items: center; flex-wrap: wrap; }
+  .toolbar input[type=search] { flex: 1; min-width: 220px; padding: 10px 14px; border-radius: 8px;
+        border: 1px solid var(--border); background: var(--panel); color: var(--text); font-size: 14px; }
+  .toolbar select { padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border);
+        background: var(--panel); color: var(--text); font-size: 14px; }
+  .toolbar .total { color: var(--muted); font-size: 13px; white-space: nowrap; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+          padding: 16px; cursor: pointer; transition: border-color .15s; }
+  .card:hover { border-color: var(--accent); }
+  .card h3 { margin: 0 0 6px; font-size: 15px; }
+  .card p { margin: 0 0 10px; font-size: 13px; color: var(--muted); line-height: 1.4;
+            display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; font-size: 11px; }
+  .badge { background: var(--accent-dim); color: var(--accent); padding: 3px 8px; border-radius: 20px; }
+  .badge.muted { background: #1c2029; color: var(--muted); }
+
+  .pager { display: flex; gap: 8px; justify-content: center; margin: 24px 0; }
+  .pager button { background: var(--panel); border: 1px solid var(--border); color: var(--text);
+        padding: 8px 14px; border-radius: 8px; cursor: pointer; }
+  .pager button:disabled { opacity: .4; cursor: default; }
+  .pager span { align-self: center; color: var(--muted); font-size: 13px; }
+
+  .empty, .loading { color: var(--muted); padding: 40px; text-align: center; }
+
+  .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: flex;
+             align-items: flex-start; justify-content: center; padding: 40px 20px; overflow-y: auto; z-index: 10; }
+  .detail { background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+            max-width: 720px; width: 100%; padding: 28px; }
+  .detail h2 { margin-top: 0; }
+  .detail .close { float: right; cursor: pointer; color: var(--muted); font-size: 20px; }
+  .detail dl { display: grid; grid-template-columns: 140px 1fr; gap: 8px 12px; font-size: 13px; margin: 16px 0; }
+  .detail dt { color: var(--muted); }
+  .detail .desc { font-size: 14px; line-height: 1.6; color: #cfd3dd; margin: 12px 0; }
+  .detail pre { white-space: pre-wrap; font-size: 12.5px; line-height: 1.6; color: #cfd3dd;
+                background: #0e1016; padding: 14px; border-radius: 8px; max-height: 60vh; overflow-y: auto; }
+  .detail .links a { display: inline-block; margin: 4px 10px 4px 0; font-size: 13px; }
+  .member-list, .alt-list { list-style: none; padding: 0; margin: 8px 0; font-size: 13px; }
+  .member-list li, .alt-list li { padding: 6px 0; border-bottom: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<div class="layout">
+  <nav class="sidebar">
+    <h1>olud.ai <span>mirror</span></h1>
+    <div id="nav-items"></div>
+  </nav>
+  <main>
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="Search…">
+      <select id="sort"></select>
+      <span class="total" id="total"></span>
+    </div>
+    <div id="grid" class="grid"></div>
+    <div class="pager" id="pager"></div>
+  </main>
+</div>
+<div id="overlay" class="overlay" style="display:none"></div>
+
+<script>
+const API = "http://localhost:8080/api";
+const CATS = [
+  {key: "projects", label: "Projects", sortable: true},
+  {key: "tools", label: "Tools", sortable: true},
+  {key: "models", label: "Models", sortable: false},
+  {key: "mcp-categories", label: "MCP Categories", sortable: false},
+  {key: "mcp-servers", label: "MCP Servers", sortable: true},
+  {key: "dna", label: "DNA Families", sortable: false},
+  {key: "alternatives", label: "Alternatives", sortable: false},
+  {key: "blog", label: "Blog", sortable: false},
+  {key: "reports", label: "Reports", sortable: false},
+];
+let state = { cat: "projects", q: "", page: 1, sort: "" };
+
+async function loadStats() {
+  const stats = await fetch(`${API}/stats`).then(r => r.json());
+  const nav = document.getElementById("nav-items");
+  nav.innerHTML = CATS.map(c => `
+    <div class="item ${c.key===state.cat?'active':''}" data-cat="${c.key}">
+      <span>${c.label}</span><span class="count">${(stats[c.key]||0).toLocaleString()}</span>
+    </div>`).join("");
+  nav.querySelectorAll(".item").forEach(el => el.onclick = () => {
+    state.cat = el.dataset.cat; state.q = ""; state.page = 1;
+    document.getElementById("search").value = "";
+    document.querySelectorAll("nav .item").forEach(i => i.classList.remove("active"));
+    el.classList.add("active");
+    renderSort(); load();
+  });
+}
+
+function renderSort() {
+  const c = CATS.find(c => c.key === state.cat);
+  const sel = document.getElementById("sort");
+  if (c.sortable) {
+    sel.style.display = "";
+    sel.innerHTML = `<option value="">Default order</option><option value="stars">Most stars</option>`;
+  } else {
+    sel.style.display = "none";
+  }
+  state.sort = "";
+}
+
+function fieldMap(cat) {
+  return {
+    projects:      {title: "name", desc: "description", badges: it => [it.stars && `★ ${it.stars}`, it.language, it.license]},
+    tools:         {title: "name", desc: "description", badges: it => [it.stars && `★ ${it.stars}`, it.built_with, it.license]},
+    models:        {title: "name", desc: "description", badges: it => [it.provider, it.context_window, it.input_price && `${it.input_price}/M in`]},
+    "mcp-categories": {title: "name", desc: "description", badges: it => [`${it.server_count||0} servers`]},
+    "mcp-servers": {title: "name", desc: null, badges: it => [it.mcp_category, `★ ${it.stars||'?'}`, it.mcp_score && `score ${it.mcp_score}`]},
+    dna:           {title: "name", desc: "description", badges: it => [`${it.member_count||0} members`]},
+    alternatives:  {title: "name", desc: "description", badges: it => [it.license, it.replaces && `replaces ${it.replaces}`]},
+    blog:          {title: "title", desc: "description", badges: it => []},
+    reports:       {title: "title", desc: "description", badges: it => []},
+  }[cat];
+}
+
+async function load() {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = `<div class="loading">Loading…</div>`;
+  const params = new URLSearchParams({page: state.page, page_size: 30});
+  if (state.q) params.set("q", state.q);
+  if (state.sort) params.set("sort", state.sort);
+  const data = await fetch(`${API}/${state.cat}?${params}`).then(r => r.json());
+  document.getElementById("total").textContent = `${data.total.toLocaleString()} results`;
+  const fm = fieldMap(state.cat);
+  const pk = state.cat === "mcp-servers" ? "project_slug" : "slug";
+  if (!data.items.length) {
+    grid.innerHTML = `<div class="empty">No results.</div>`;
+  } else {
+    grid.innerHTML = data.items.map(it => `
+      <div class="card" data-key="${it[pk]}" data-cat2="${it.mcp_category||''}">
+        <h3>${escapeHtml(it[fm.title] || it[pk] || "")}</h3>
+        ${fm.desc && it[fm.desc] ? `<p>${escapeHtml(it[fm.desc])}</p>` : ""}
+        <div class="badges">${fm.badges(it).filter(Boolean).map(b => `<span class="badge">${escapeHtml(String(b))}</span>`).join("")}</div>
+      </div>`).join("");
+    grid.querySelectorAll(".card").forEach(el => el.onclick = () => openDetail(state.cat, el.dataset.key, el.dataset.cat2));
+  }
+  const pages = Math.max(1, Math.ceil(data.total / 30));
+  document.getElementById("pager").innerHTML = `
+    <button ${state.page<=1?"disabled":""} id="prev">‹ Prev</button>
+    <span>Page ${state.page} of ${pages}</span>
+    <button ${state.page>=pages?"disabled":""} id="next">Next ›</button>`;
+  document.getElementById("prev").onclick = () => { state.page--; load(); };
+  document.getElementById("next").onclick = () => { state.page++; load(); };
+}
+
+async function openDetail(cat, key, mcpCat) {
+  const lookupKey = cat === "mcp-servers" && mcpCat ? `${key}` : key;
+  const item = await fetch(`${API}/${cat}/${lookupKey}`).then(r => r.ok ? r.json() : null);
+  const overlay = document.getElementById("overlay");
+  if (!item) { overlay.style.display = "none"; return; }
+  overlay.innerHTML = `<div class="detail">
+    <span class="close">&times;</span>
+    <h2>${escapeHtml(item.name || item.title || key)}</h2>
+    ${renderDetailBody(cat, item)}
+  </div>`;
+  overlay.style.display = "flex";
+  overlay.querySelector(".close").onclick = () => overlay.style.display = "none";
+  overlay.onclick = e => { if (e.target === overlay) overlay.style.display = "none"; };
+}
+
+function renderDetailBody(cat, it) {
+  if (cat === "blog" || cat === "reports") {
+    return `<p class="desc">${escapeHtml(it.description||"")}</p>
+      <p class="links"><a href="${it.url}" target="_blank">View on olud.ai ↗</a></p>
+      <pre>${escapeHtml(it.content_markdown||"")}</pre>`;
+  }
+  const rows = [];
+  const addRow = (label, val) => { if (val) rows.push(`<dt>${label}</dt><dd>${escapeHtml(String(val))}</dd>`); };
+  if (cat === "projects") {
+    addRow("Owner", it.owner); addRow("Stars", it.stars); addRow("Forks", it.forks);
+    addRow("Trending", it.trending); addRow("License", it.license); addRow("Language", it.language);
+    addRow("Created", it.created); addRow("Last commit", it.last_commit); addRow("Category", it.category);
+  } else if (cat === "tools") {
+    addRow("Owner", it.owner); addRow("Category", it.category); addRow("Type", it.type);
+    addRow("License", it.license); addRow("Built with", it.built_with); addRow("Runs locally", it.runs_locally);
+    addRow("Skill level", it.skill_level); addRow("Best for", it.best_for);
+  } else if (cat === "models") {
+    addRow("Provider", it.provider); addRow("Context window", it.context_window);
+    addRow("Input price", it.input_price); addRow("Output price", it.output_price);
+  } else if (cat === "mcp-servers") {
+    addRow("Category", it.mcp_category); addRow("Stars", it.stars);
+    addRow("Language", it.language); addRow("MCP score", it.mcp_score); addRow("Rank", it.rank);
+  } else if (cat === "alternatives") {
+    addRow("License", it.license); addRow("Website", it.website); addRow("Replaces", it.replaces);
+  } else if (cat === "mcp-categories") {
+    addRow("Servers", it.server_count);
+  }
+  let extra = "";
+  if (cat === "dna" && it.members) {
+    extra += `<h4>Members (${it.member_count})</h4><ul class="member-list">${
+      it.members.slice(0, 30).map(m => `<li><a href="${m.project_url}" target="_blank">${escapeHtml(m.label)}</a> · ★ ${m.stars}</li>`).join("")}</ul>`;
+  }
+  if (cat === "alternatives" && it.other_alternatives && it.other_alternatives.length) {
+    extra += `<h4>Other alternatives</h4><ul class="alt-list">${
+      it.other_alternatives.map(a => `<li><a href="${a.url}" target="_blank">${escapeHtml(a.name)}</a> · ★ ${a.stars} · ${escapeHtml(a.language||"")}</li>`).join("")}</ul>`;
+  }
+  const links = [];
+  if (it.github_url) links.push(`<a href="${it.github_url}" target="_blank">GitHub ↗</a>`);
+  if (it.website) links.push(`<a href="${it.website}" target="_blank">Website ↗</a>`);
+  if (it.project_url) links.push(`<a href="${it.project_url}" target="_blank">Project page ↗</a>`);
+  if (it.url) links.push(`<a href="${it.url}" target="_blank">olud.ai ↗</a>`);
+  return `<p class="desc">${escapeHtml(it.description||"")}</p>
+    <dl>${rows.join("")}</dl>
+    ${extra}
+    <p class="links">${links.join("")}</p>`;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+document.getElementById("search").addEventListener("input", debounce(e => {
+  state.q = e.target.value; state.page = 1; load();
+}, 300));
+document.getElementById("sort").addEventListener("change", e => {
+  state.sort = e.target.value; state.page = 1; load();
+});
+function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+
+renderSort();
+loadStats().then(load);
+</script>
+</body>
+</html>

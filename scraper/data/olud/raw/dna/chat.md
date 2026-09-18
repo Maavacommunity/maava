@@ -1,0 +1,107 @@
+# chat — DNA families | olud.ai
+
+> 79 projects share this GitHub topic. Measured from GitHub topics shared by both projects, weighted by how rare each topic is.
+
+_Source: https://olud.ai/dna/chat.html_
+
+---
+
+## chat
+79 projects share this GitHub topic
+
++−⌂
+
+Lines connect members that are measurably related to each other. Dot size reflects stars.
+
+🧬 Members
+- [ChatTTS A generative speech model for daily dialogue. ★ 39.8k](https://olud.ai/project/2noise-chattts.html)
+- [khoj Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule… ★ 36.8k](https://olud.ai/project/khoj-ai-khoj.html)
+- [SillyTavern LLM Frontend for Power Users. ★ 32.9k](https://olud.ai/project/sillytavern-sillytavern.html)
+- [AionUi Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent |… ★ 32.5k](https://olud.ai/project/iofficeai-aionui.html)
+- [carrot AI 工具导航大全，帮你快速筛选免费、实用、高效的网站资源 ★ 17.1k](https://olud.ai/project/xx025-carrot.html)
+- [EverydayWechat ★ 10.3k](https://olud.ai/project/sfyc23-everydaywechat.html)
+- [coai 🚀 Next Gen Multi-tenant AI One-Stop Solution. Builtin Admin & Billing System. Enterprise-Grade Unified LLM… ★ 9.3k](https://olud.ai/project/coaidev-coai.html)
+- [CopilotForXcode The first GitHub Copilot, Codeium and ChatGPT Xcode Source Editor Extension ★ 8.2k](https://olud.ai/project/intitni-copilotforxcode.html)
+- [MaiBot MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting… ★ 5.9k](https://olud.ai/project/mai-with-u-maibot.html)
+- [ChatUI The UI design language and React library for Conversational UI ★ 4.4k](https://olud.ai/project/alibaba-chatui.html)
+- [chatgpt-android 📲 ChatGPT Android demonstrates a Chatbot application using OpenAI's chat API on Android with Stream Chat… ★ 3.9k](https://olud.ai/project/skydoves-chatgpt-android.html)
+- [Streamer-Sales ★ 3.8k](https://olud.ai/project/peterh0323-streamer-sales.html)
+- [deep-chat Fully customizable AI chatbot component for your website ★ 3.7k](https://olud.ai/project/ovidijusparsiunas-deep-chat.html)
+- [chaskiq A full featured Live Chat, Support & Marketing platform, alternative to Intercom, Drift, Crisp. ★ 3.5k](https://olud.ai/project/chaskiq-chaskiq.html)
+- [Ask-Anything [CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as… ★ 3.3k](https://olud.ai/project/opengvlab-ask-anything.html)
+- [errbot Errbot is a chatbot, a daemon that connects to your favorite chat service and bring your tools and some fun… ★ 3.3k](https://olud.ai/project/errbotio-errbot.html)
+- [AChat 🌊 AChat - An open-source/self-hosted/local-first AI platform, designed for enterprises and teams,… ★ 3.3k](https://olud.ai/project/aprilnea-achat.html)
+- [agent-chat-ui 🦜💬 Web app for interacting with any LangGraph agent (PY & TS) via a chat interface. ★ 3.1k](https://olud.ai/project/langchain-ai-agent-chat-ui.html)
+- [speechgpt 💬 SpeechGPT is a web application that enables you to converse with ChatGPT. ★ 2.8k](https://olud.ai/project/hahahumble-speechgpt.html)
+- [TavernAI-v1 Atmospheric adventure chat for AI language models (KoboldAI, NovelAI, Pygmalion, OpenAI chatgpt, gpt-4) ★ 2.7k](https://olud.ai/project/tavernai-tavernai-v1.html)
+- [thinking-orbs Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light ★ 2.6k](https://olud.ai/project/jakubantalik-thinking-orbs.html)
+- [goflylivechat 开源在线客服系统GO语言开发GO-FLY,免费在线客服系统/GOFLY LIVE CHAT: open source… ★ 2.6k](https://olud.ai/project/taoshihan1991-goflylivechat.html)
+- [papersgpt-for-zotero A powerful Zotero AI and MCP plugin with ChatGPT, Gemini 3.5, Claude, DeepSeek V4, Grok, OpenRouter, Kimi… ★ 2.5k](https://olud.ai/project/papersgpt-papersgpt-for-zotero.html)
+- [chat-with-gpt An open-source ChatGPT app with a voice ★ 2.4k](https://olud.ai/project/cogentapps-chat-with-gpt.html)
+- [livehelperchat Live Helper Chat - live support for your website. Featuring web and mobile apps, Voice & Video & ScreenShare.… ★ 2.2k](https://olud.ai/project/livehelperchat-livehelperchat.html)
+- [chatmcp ChatMCP is an AI chat client implementing the Model Context Protocol (MCP). ★ 2.2k](https://olud.ai/project/daodao97-chatmcp.html)
+- [chat A unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more. ★ 2.2k](https://olud.ai/project/vercel-chat.html)
+- [conduit Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents. ★ 2.1k](https://olud.ai/project/cogwheel0-conduit.html)
+- [chatgpt.js 🤖 A powerful, lightweight JavaScript library + interactive CLI for ChatGPT ★ 2k](https://olud.ai/project/kudoai-chatgpt-js.html)
+- [react-simple-chatbot :speech_balloon: Easy way to create conversation chats ★ 1.8k](https://olud.ai/project/lucasbassetti-react-simple-chatbot.html)
+- [Mojo-Webqq 【重要通知：WebQQ将在2019年1月1日停止服务，此项目目前已停止维护，感谢大家四年… ★ 1.7k](https://olud.ai/project/hexsum-mojo-webqq.html)
+- [LLMUnity Create characters in Unity with LLMs! ★ 1.7k](https://olud.ai/project/undreamai-llmunity.html)
+- [Risuai Make your own story. User-friendly software for LLM roleplaying ★ 1.6k](https://olud.ai/project/kwaroran-risuai.html)
+- [tmi.js 💬 Javascript library for the Twitch Messaging Interface. (Twitch.tv) ★ 1.6k](https://olud.ai/project/tmijs-tmi-js.html)
+- [xiaozhi-android-client ★ 1.5k](https://olud.ai/project/tom88812-xiaozhi-android-client.html)
+- [AI-Fullstack-SaaS-Boilerplate Fullstack SaaS Boilerplate built with tRPC, Fastify and React ★ 1.4k](https://olud.ai/project/alan345-ai-fullstack-saas-boilerplate.html)
+- [ChatGpt-Web A commercially-viable ChatGpt web application built with React. 使用React搭建的一款可商业化的ChatG… ★ 1.4k](https://olud.ai/project/79e-chatgpt-web.html)
+- [ChatChat Chat Chat, your own unified chat and search to AI platform, with a simple and easy to use interface. ★ 1.3k](https://olud.ai/project/okisdev-chatchat.html)
+- [Mojo-Weixin ★ 1.3k](https://olud.ai/project/hexsum-mojo-weixin.html)
+- [chat-js Production-ready AI chat. Start here and make it your own. Formerly Sparka AI ★ 1.2k](https://olud.ai/project/franciscomoretti-chat-js.html)
+- [web-llm-chat Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI… ★ 1.1k](https://olud.ai/project/mlc-ai-web-llm-chat.html)
+- [chatd Chat with your documents using local AI ★ 1.1k](https://olud.ai/project/brucemacd-chatd.html)
+- [webwhiz WebWhiz allows you to create an AI chatbot that knows everything about your product and can instantly respond… ★ 1k](https://olud.ai/project/webwhiz-ai-webwhiz.html)
+- [pro-chat 🤖 Components Library for Quickly Building LLM Chat Interfaces. ★ 899](https://olud.ai/project/ant-design-pro-chat.html)
+- [doc-chatbot Document chatbot — multiple files, topics, chat windows and chat history. Powered by GPT. ★ 855](https://olud.ai/project/dissorial-doc-chatbot.html)
+- [seq2seq-chatbot Chatbot in 200 lines of code using TensorLayer ★ 837](https://olud.ai/project/tensorlayer-seq2seq-chatbot.html)
+- [ChatMLX 🤖✨ChatMLX is a modern, open-source, high-performance chat application for MacOS based on large language… ★ 832](https://olud.ai/project/johnmai-dev-chatmlx.html)
+- [octo-server 🐙 The Go backend powering OCTO — an open workplace built for humans × AI agents. REST & WebSocket APIs,… ★ 819](https://olud.ai/project/mininglamp-oss-octo-server.html)
+- [slacker Slack Bot Framework ★ 802](https://olud.ai/project/shomali11-slacker.html)
+- [oatmeal Terminal UI to chat with large language models (LLM) using different model backends, and integrations with… ★ 772](https://olud.ai/project/dustinblackman-oatmeal.html)
+- [agnai AI Agnostic (Multi-user and Multi-bot) Chat with Fictional Characters. Designed with scale in mind. ★ 760](https://olud.ai/project/agnaistic-agnai.html)
+- [yoda Wise and powerful personal assistant, available in your nearest terminal ★ 751](https://olud.ai/project/manparvesh-yoda.html)
+- [chatgpt-prompts A NodeJS ChatGPT prompts library that contains more than 140+ awesome prompts ★ 712](https://olud.ai/project/pacholoamit-chatgpt-prompts.html)
+- [chat 基于自然语言理解与机器学习的聊天机器人，支持多用户并发及自定义多轮对话 ★ 702](https://olud.ai/project/decalogue-chat.html)
+- [chat2api chat2api ★ 650](https://olud.ai/project/aurorax-neo-chat2api.html)
+- [ChatPilot ChatPilot: Chat Agent Web UI，实现Chat对话前端，支持Google搜索、文件网址对话（RAG）、代… ★ 600](https://olud.ai/project/shibing624-chatpilot.html)
+- [chatgpt-vue3-light-mvp 💭 一个可二次开发 Chat Bot 单轮对话 Web 端 MVP 原型模板, 基于 Vue 3, Vite8, TypeScript,… ★ 568](https://olud.ai/project/pdsuwwz-chatgpt-vue3-light-mvp.html)
+- [Multi-Modality-Arena Chatbot Arena meets multi-modality! Multi-Modality Arena allows you to benchmark vision-language models… ★ 566](https://olud.ai/project/opengvlab-multi-modality-arena.html)
+- [skald Context layer platform in your infrastructure ★ 563](https://olud.ai/project/skaldlabs-skald.html)
+- [ethora SDK monorepo for Ethora chat / messaging platform. (1) Pick an SDK for your frontend stack. (2) Integrate… ★ 541](https://olud.ai/project/dappros-ethora.html)
+- [PureChat PureChat 是一款全面的聊天应用程序，它将传统的即时消息与高级 AI… ★ 538](https://olud.ai/project/hyk260-purechat.html)
+- [react-chatbotify A modern React library for creating flexible and extensible chatbots. ★ 446](https://olud.ai/project/react-chatbotify-react-chatbotify.html)
+- [ComfyJS Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support ★ 433](https://olud.ai/project/instafluff-comfyjs.html)
+- [dialogflow-web-v2 Dialogflow Web Integration. Supports rich components ★ 432](https://olud.ai/project/mishushakov-dialogflow-web-v2.html)
+- [solon-ai Java AI application development framework (supports LLM-tool,skill; RAG; MCP; Agent-ReAct,Team-Agent).… ★ 426](https://olud.ai/project/opensolon-solon-ai.html)
+- [smg Engine-agnostic LLM gateway in Rust. Full OpenAI & Anthropic API compatibility across vLLM, TRT-LLM,… ★ 400](https://olud.ai/project/lightseekorg-smg.html)
+- [ai-commit Automagically generate conventional git commit messages with AI. - 使用 AI 自动生成约定式 git… ★ 395](https://olud.ai/project/guanguans-ai-commit.html)
+- [flutter_gpt_box GPTBox - a third-party client for OpenAI API. ★ 382](https://olud.ai/project/lollipopkit-flutter-gpt-box.html)
+- [tactus The first browser AI Agent extension to support Agent Skills, enabling AI to perform complex tasks through an… ★ 374](https://olud.ai/project/castor6-tactus.html)
+- [chat Nuxt AI Chatbot Template made with Nuxt UI and Vercel AI SDK. ★ 354](https://olud.ai/project/nuxt-ui-templates-chat.html)
+- [SwiftyChat A lightweight SwiftUI chat UI framework with 11 built-in message types, 8 themes, and cross-platform… ★ 348](https://olud.ai/project/eneskaraosman-swiftychat.html)
+- [add-ons-samples Sample Google Workspace Add-ons ★ 345](https://olud.ai/project/googleworkspace-add-ons-samples.html)
+- [ChatGPT-android-app Android app for accessing ChatGPT ★ 337](https://olud.ai/project/matthaigh27-chatgpt-android-app.html)
+- [Live-Chatbot-for-Final-Year-Project Chatbot system for Final Year Project. Chatbot made in Python using Natural Language Toolkit especially… ★ 328](https://olud.ai/project/vatshayan-live-chatbot-for-final-year-project.html)
+- [go-rag 基于eino+gf+vue实现知识库的rag ★ 326](https://olud.ai/project/wangle201210-go-rag.html)
+- [ChatPLUG A Chinese Open-Domain Dialogue System ★ 323](https://olud.ai/project/x-plug-chatplug.html)
+- [wandbot wandbot is a technical support bot for Weights & Biases' AI developer tools that can run in Discord, Slack,… ★ 310](https://olud.ai/project/wandb-wandbot.html)
+- [talkio Local-first multi-AI group chat desktop app — pull gpt, Claude, Gemini, DeepSeek into one conversation.… ★ 305](https://olud.ai/project/llt22-talkio.html)
+- [clickclack ClickClackClaw - The chat app with claws. ★ 200](https://olud.ai/project/openclaw-clickclack.html)
+
+🔗 Related families
+- [bot 83](https://olud.ai/dna/bot.html)
+- [chat-application 9](https://olud.ai/dna/chat-application.html)
+- [chinese 70](https://olud.ai/dna/chinese.html)
+- [llm-agent 57](https://olud.ai/dna/llm-agent.html)
+- [tts 56](https://olud.ai/dna/tts.html)
+- [hermes 48](https://olud.ai/dna/hermes.html)
+- [ai-gateway 49](https://olud.ai/dna/ai-gateway.html)
+- [ai-chatbot 11](https://olud.ai/dna/ai-chatbot.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.

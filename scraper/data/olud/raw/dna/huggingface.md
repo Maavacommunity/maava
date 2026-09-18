@@ -1,0 +1,108 @@
+# huggingface — DNA families | olud.ai
+
+> 80 projects share this GitHub topic. Measured from GitHub topics shared by both projects, weighted by how rare each topic is.
+
+_Source: https://olud.ai/dna/huggingface.html_
+
+---
+
+## huggingface
+80 projects share this GitHub topic
+
++−⌂
+
+Lines connect members that are measurably related to each other. Dot size reflects stars.
+
+🧬 Members
+- [agents-course This repository contains the Hugging Face Agents Course. ★ 32k](https://olud.ai/project/huggingface-agents-course.html)
+- [datasets 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data… ★ 21.9k](https://olud.ai/project/huggingface-datasets.html)
+- [langchain4j LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It… ★ 13k](https://olud.ai/project/langchain4j-langchain4j.html)
+- [chat-ui The open source codebase powering HuggingChat ★ 10.9k](https://olud.ai/project/huggingface-chat-ui.html)
+- [swarms The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai ★ 7.1k](https://olud.ai/project/kyegomez-swarms.html)
+- [skorch A scikit-learn compatible neural network library that wraps PyTorch ★ 6.2k](https://olud.ai/project/skorch-dev-skorch.html)
+- [chronos-forecasting Chronos: Pretrained Models for Time Series Forecasting ★ 5.8k](https://olud.ai/project/amazon-science-chronos-forecasting.html)
+- [Baichuan-7B A large-scale 7B pretraining language model developed by BaiChuan-Inc. ★ 5.6k](https://olud.ai/project/baichuan-inc-baichuan-7b.html)
+- [text-embeddings-inference A blazing fast inference solution for text embeddings models ★ 5k](https://olud.ai/project/huggingface-text-embeddings-inference.html)
+- [stable-diffusion-videos Create 🔥 videos with Stable Diffusion by exploring the latent space and morphing between text prompts ★ 4.7k](https://olud.ai/project/nateraw-stable-diffusion-videos.html)
+- [autotrain-advanced 🤗 AutoTrain Advanced ★ 4.6k](https://olud.ai/project/huggingface-autotrain-advanced.html)
+- [lmql A language for constraint-guided and efficient LLM programming. ★ 4.2k](https://olud.ai/project/eth-sri-lmql.html)
+- [Soup Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU. ★ 4.2k](https://olud.ai/project/makazhanalpamys-soup.html)
+- [csghub CSGHub is a brand-new open-source platform for managing LLMs, developed by the OpenCSG team. It offers both… ★ 4.1k](https://olud.ai/project/opencsgs-csghub.html)
+- [Baichuan2 A series of large language models developed by Baichuan Intelligent Technology ★ 4.1k](https://olud.ai/project/baichuan-inc-baichuan2.html)
+- [transformers-code 手把手带你实战 Huggingface Transformers 课程视频同步更新在B站与YouTube ★ 4k](https://olud.ai/project/zyds-transformers-code.html)
+- [cascadeflow Cascading runtime for AI agents. Optimize cost, latency, quality, and policy decisions inside the agent loop. ★ 4k](https://olud.ai/project/lemony-ai-cascadeflow.html)
+- [Eagle Eagle: Frontier Vision-Language Models with Data-Centric Strategies ★ 3.5k](https://olud.ai/project/nvlabs-eagle.html)
+- [distilabel Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and… ★ 3.3k](https://olud.ai/project/argilla-io-distilabel.html)
+- [second-brain-ai-assistant-course Learn to build your Second Brain AI assistant with LLMs, agents, RAG, fine-tuning, LLMOps and AI systems… ★ 3.1k](https://olud.ai/project/decodingai-magazine-second-brain-ai-assistant-course.html)
+- [LLM-Finetuning LLM Finetuning with peft ★ 3k](https://olud.ai/project/ashishpatel26-llm-finetuning.html)
+- [Baichuan-13B A 13B large language model developed by Baichuan Intelligent Technology ★ 2.9k](https://olud.ai/project/baichuan-inc-baichuan-13b.html)
+- [griptape Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory. ★ 2.6k](https://olud.ai/project/griptape-ai-griptape.html)
+- [mPLUG-Owl mPLUG-Owl: The Powerful Multi-modal Large Language Model Family ★ 2.5k](https://olud.ai/project/x-plug-mplug-owl.html)
+- [shippie extendable code review and QA agent 🚢 ★ 2.5k](https://olud.ai/project/mattzcarey-shippie.html)
+- [huggingface.js Use Hugging Face with JavaScript ★ 2.5k](https://olud.ai/project/huggingface-huggingface-js.html)
+- [sagemaker-python-sdk A library for training and deploying machine learning models on Amazon SageMaker ★ 2.3k](https://olud.ai/project/aws-sagemaker-python-sdk.html)
+- [trainer Distributed AI Model Training and LLM Fine-Tuning on Kubernetes ★ 2.2k](https://olud.ai/project/kubeflow-trainer.html)
+- [simple-llm-finetuner Simple UI for LLM Model Finetuning ★ 2.1k](https://olud.ai/project/lxe-simple-llm-finetuner.html)
+- [langchain-kr LangChain 공식 Document, Cookbook, 그 밖의 실용 예제를 바탕으로 작성한 한국어… ★ 2k](https://olud.ai/project/teddylee777-langchain-kr.html)
+- [obsidian-textgenerator-plugin Text Generator is a versatile plugin for Obsidian that allows you to generate text content using various AI… ★ 2k](https://olud.ai/project/nhaouari-obsidian-textgenerator-plugin.html)
+- [Large-Language-Model-Notebooks-Course Practical course about Large Language Models. ★ 1.8k](https://olud.ai/project/peremartra-large-language-model-notebooks-course.html)
+- [DeTikZify Synthesizing Graphics Programs for Scientific Figures and Sketches with TikZ. ★ 1.8k](https://olud.ai/project/potamides-detikzify.html)
+- [katib Automated Machine Learning on Kubernetes ★ 1.7k](https://olud.ai/project/kubeflow-katib.html)
+- [VibeThinker Tiny Model, Big Logic: Diversity-Driven Optimization Elicits Large-Model Reasoning Ability in VibeThinker-1.5B ★ 1.6k](https://olud.ai/project/weiboai-vibethinker.html)
+- [rocketnotes ✨ AI-powered markdown editor - leverage LLMs with your documents - 100% local or in the cloud ★ 1.5k](https://olud.ai/project/fynnfluegge-rocketnotes.html)
+- [spacy-transformers 🛸 Use pretrained transformers like BERT, XLNet and GPT-2 in spaCy ★ 1.4k](https://olud.ai/project/explosion-spacy-transformers.html)
+- [gpu_poor Calculate token/s & GPU memory requirement for any LLM. Supports llama.cpp/ggml/bnb/QLoRA quantization ★ 1.4k](https://olud.ai/project/rahulschand-gpu-poor.html)
+- [aws-genai-llm-chatbot A modular and comprehensive solution to deploy a Multi-LLM and Multi-RAG powered chatbot (Amazon Bedrock,… ★ 1.4k](https://olud.ai/project/aws-samples-aws-genai-llm-chatbot.html)
+- [mlx-tune Fine-tune LLMs on your Mac with Apple Silicon. SFT, DPO, GRPO, Vision, TTS, STT, Embedding, and OCR… ★ 1.4k](https://olud.ai/project/arahim3-mlx-tune.html)
+- [nlux The 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 Conversational AI JavaScript Library 💬 — UI for any LLM,… ★ 1.4k](https://olud.ai/project/nlkitai-nlux.html)
+- [Jlama Jlama is a modern LLM inference engine for Java ★ 1.3k](https://olud.ai/project/tjake-jlama.html)
+- [MING 明医 (MING)：中文医疗问诊大模型 ★ 1.2k](https://olud.ai/project/mediabrain-sjtu-ming.html)
+- [biniou a self-hosted webui for 30+ generative ai ★ 1.2k](https://olud.ai/project/woolverine94-biniou.html)
+- [HuggingFaceModelDownloader Simple go utility to download HuggingFace Models and Datasets ★ 1.1k](https://olud.ai/project/bodaay-huggingfacemodeldownloader.html)
+- [MindAct MindSpore + 🤗Huggingface: Run any Transformers/Diffusers model on MindSpore with seamless compatibility… ★ 920 · GitHub ↗](https://github.com/candle-org/MindAct)
+- [mindnlp MindSpore + 🤗Huggingface: Run any Transformers/Diffusers model on MindSpore with seamless compatibility… ★ 920](https://olud.ai/project/candle-org-mindnlp.html)
+- [deepfabric Generate High-Quality Synthetics, Train, Measure, and Evaluate in a Single Pipeline ★ 880](https://olud.ai/project/nolabs-ai-deepfabric.html)
+- [llm-ls LSP server leveraging LLMs for code completion (and more?) ★ 880](https://olud.ai/project/huggingface-llm-ls.html)
+- [FineTuningLLMs Official repository of my book "A Hands-On Guide to Fine-Tuning LLMs with PyTorch and Hugging Face" ★ 858](https://olud.ai/project/dvgodoy-finetuningllms.html)
+- [chatty ChattyUI - your private AI chat for running LLMs in the browser ★ 825](https://olud.ai/project/addyosmani-chatty.html)
+- [llama3.java Llama 3+ inference in pure Java ★ 815](https://olud.ai/project/mukel-llama3-java.html)
+- [daam Diffusion attentive attribution maps for interpreting Stable Diffusion. ★ 802](https://olud.ai/project/castorini-daam.html)
+- [audio-diffusion Apply diffusion models using the new Hugging Face diffusers package to synthesize music instead of images. ★ 792](https://olud.ai/project/teticio-audio-diffusion.html)
+- [june Local voice chatbot for engaging conversations, powered by Ollama, Hugging Face Transformers, and Coqui TTS… ★ 787](https://olud.ai/project/mezbaul-h-june.html)
+- [transformers-php Transformers PHP is a toolkit for PHP developers to add machine learning magic to their projects easily. ★ 759](https://olud.ai/project/codewithkyrian-transformers-php.html)
+- [GenossGPT One API for all LLMs either Private or Public (Anthropic, Llama V2, GPT 3.5/4, Vertex, GPT4ALL, HuggingFace… ★ 755](https://olud.ai/project/theodo-group-genossgpt.html)
+- [LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing LLM-PowerHouse: Unleash LLMs' potential through curated tutorials, best practices, and ready-to-use code for… ★ 731](https://olud.ai/project/ghimiresunil-llm-powerhouse-a-curated-guide-for-large-language-models-with-custom-training-and-inferencing.html)
+- [END-TO-END-GENERATIVE-AI-PROJECTS End to End Generative AI Industry Projects on LLM Models with Deployment_Awesome LLM Projects ★ 632](https://olud.ai/project/gurpreetkaurjethra-end-to-end-generative-ai-projects.html)
+- [embedJs A NodeJS RAG framework to easily work with LLMs and embeddings ★ 601](https://olud.ai/project/llm-tools-embedjs.html)
+- [tensorflow-nlp-tutorial tensorflow를 사용하여 텍스트 전처리부터, Topic Models, BERT, GPT, LLM과 같은 최신 모델의… ★ 577](https://olud.ai/project/ukairia777-tensorflow-nlp-tutorial.html)
+- [generative-ai-cdk-constructs AWS Generative AI CDK Constructs are sample implementations of AWS CDK for common generative AI patterns. ★ 542](https://olud.ai/project/awslabs-generative-ai-cdk-constructs.html)
+- [relik Retrieve, Read and LinK: Fast and Accurate Entity Linking and Relation Extraction on an Academic Budget (ACL… ★ 512](https://olud.ai/project/sapienzanlp-relik.html)
+- [opencode-power-pack 54 rigorous skills for Codex, OpenCode, and Pi: code review, security audit, feature development, frontend… ★ 491](https://olud.ai/project/waybarrios-opencode-power-pack.html)
+- [SpanMarkerNER SpanMarker for Named Entity Recognition ★ 476](https://olud.ai/project/tomaarsen-spanmarkerner.html)
+- [inseq Interpretability for sequence generation models 🐛 🔍 ★ 475](https://olud.ai/project/inseq-team-inseq.html)
+- [Sunsimiao 🌿孙思邈中文医疗大模型(Sunsimiao)：提供安全、可靠、普惠的中文医疗大模型 ★ 469](https://olud.ai/project/x-d-lab-sunsimiao.html)
+- [whisper-gui A simple GUI to use Whisper. ★ 447](https://olud.ai/project/pikurrot-whisper-gui.html)
+- [langstream LangStream. Event-Driven Developer Platform for Building and Running LLM AI Apps. Powered by Kubernetes and… ★ 428](https://olud.ai/project/langstream-langstream.html)
+- [redis-vl-python Redis Vector Library (RedisVL) -- the AI-native Python client for Redis. ★ 424](https://olud.ai/project/redis-redis-vl-python.html)
+- [InfiniTransformer Unofficial PyTorch/🤗Transformers(Gemma/Llama3) implementation of Leave No Context Behind: Efficient… ★ 376](https://olud.ai/project/beomi-infinitransformer.html)
+- [openlm OpenAI-compatible Python client that can call any LLM ★ 369](https://olud.ai/project/r2d4-openlm.html)
+- [MoE-Infinity PyTorch library for cost-effective, fast and easy serving of MoE models. ★ 352](https://olud.ai/project/efficientmoe-moe-infinity.html)
+- [QA-Pilot QA-Pilot is an interactive chat project that leverages online/local LLM for rapid understanding and… ★ 326](https://olud.ai/project/reid41-qa-pilot.html)
+- [layoutreader A Faster LayoutReader Model based on LayoutLMv3, Sort OCR bboxes to reading order. ★ 322](https://olud.ai/project/freeocr-ai-layoutreader.html)
+- [BK-SDM A Compressed Stable Diffusion for Efficient Text-to-Image Generation [ECCV'24] ★ 319](https://olud.ai/project/nota-netspresso-bk-sdm.html)
+- [browser-ml-inference Edge Inference in Browser with Transformer NLP model ★ 316](https://olud.ai/project/jobergum-browser-ml-inference.html)
+- [fashn-vton-1.5 FASHN VTON v1.5: Efficient Maskless Virtual Try-On in Pixel Space ★ 301](https://olud.ai/project/fashn-ai-fashn-vton-1-5.html)
+- [awesome-skills-cn 热门Skills中文cn学习版+教程，提供7000+Skills，集成claude skills (11w+Star) |… ★ 267](https://olud.ai/project/lingxling-awesome-skills-cn.html)
+- [TeaLeaves End-to-end pipeline for seeing how LLMs actually process your prompts. Capture attention across every layer,… ★ 42](https://olud.ai/project/taylorsatula-tealeaves.html)
+
+🔗 Related families
+- [gpt-4 119](https://olud.ai/dna/gpt-4.html)
+- [peft 16](https://olud.ai/dna/peft.html)
+- [lora 47](https://olud.ai/dna/lora.html)
+- [vector-database 91](https://olud.ai/dna/vector-database.html)
+- [chinese 70](https://olud.ai/dna/chinese.html)
+- [language-model 113](https://olud.ai/dna/language-model.html)
+- [aws 54](https://olud.ai/dna/aws.html)
+- [bert 81](https://olud.ai/dna/bert.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.

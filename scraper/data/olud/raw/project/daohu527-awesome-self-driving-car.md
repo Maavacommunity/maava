@@ -1,0 +1,121 @@
+# awesome-self-driving-car — An awesome list of self-driving cars | olud.ai
+
+> Explore a curated collection of resources and information about self-driving cars and related technologies (Apache-2.0, 2019). 746 stars on GitHub.
+
+_Source: https://olud.ai/project/daohu527-awesome-self-driving-car.html_
+
+---
+
+[Home](https://olud.ai/)›
+[Projects](https://olud.ai/projects.html)›
+awesome-self-driving-car
+
+awesome-self-driving-car
+
+[autonomous-driving](https://olud.ai/projects.html?cat=autonomous-driving)
+
+## awesome-self-driving-car
+
+An awesome list of self-driving cars
+
+by **daohu527** · GitHub
+
+[746](https://olud.ai/most-starred.html)
+
+Stars
+
+[177](https://olud.ai/most-forked.html)
+
+Forks
+
+[Apache-2.0](https://olud.ai/license/apache-2-0.html)
+
+License
+
+[2019](https://olud.ai/year/2019.html)
+
+Created
+
+[1 mo ago](https://olud.ai/recently-updated.html)
+
+Last commit
+
+[autonomous-driving](https://olud.ai/projects.html?cat=autonomous-driving)
+
+Category
+- [autonomous-driving](https://olud.ai/projects.html?cat=autonomous-driving)
+- [autonomous-vehicles](https://olud.ai/dna/autonomous-vehicles.html)
+- [awesome](https://olud.ai/projects.html?cat=awesome)
+Apache-2.0
+
+[View on GitHub](https://github.com/daohu527/awesome-self-driving-car)
+
+𝕏  X / Twitter
+
+🔗  Copy link
+
+In plain wordsExplore a curated collection of resources and information about self-driving cars and related technologies.
+
+You maintain this project?
+
+Claim its page: indexed whatever its rank, translated into six languages, and enriched with what you write yourself.
+
+[Claim this page →](https://olud.ai/claim.html?repo=daohu527%2Fawesome-self-driving-car)
+
+📈 Star history
+
+2026-07-202026-08-31
+
+📈 Track awesome-self-driving-car
+
+Get an email alert on its next release or when it starts trending — never miss the moment.
+
+Free · no card · unsubscribe anytime
+
+[Get email alerts →](https://olud.ai/account.html)
+
+📄 About
+
+An awesome list of self-driving cars
+
+awesome-self-driving-car has 746 stars on GitHub. It has been forked 177 times. It has been in active development since 2019. awesome-self-driving-car is available under the Apache-2.0 license. Its main topics are autonomous-driving, autonomous-vehicles, awesome, self-driving-car.
+
+📦 Latest release
+
+❓ Frequently asked questions
+
+#### What is awesome-self-driving-car?
+An awesome list of self-driving cars
+
+#### Is awesome-self-driving-car open source?
+awesome-self-driving-car is an open-source project. It is released under the Apache-2.0 license.
+
+#### Is awesome-self-driving-car free?
+Yes. awesome-self-driving-car is free and open source — you can use, modify and self-host it.
+
+#### What license does awesome-self-driving-car use?
+awesome-self-driving-car is available under the Apache-2.0 license.
+
+🏅 Maintainer of this project?
+
+olud.ai badge — awesome-self-driving-car
+Add this live badge to your README — your GitHub stars and directory rank, refreshed daily.
+
+`[![olud.ai](https://olud.ai/badge.php?tool=daohu527-awesome-self-driving-car)](https://olud.ai/project/daohu527-awesome-self-driving-car.html)`
+Copy Markdown
+
+[More badge options →](https://olud.ai/badge.html)
+
+🧬 Shares DNA with[🧬 View the DNA map →](https://olud.ai/dna/autonomous-vehicles.html)
+- [carla Open-source simulator for autonomous driving research. ★ 14.2k · ai sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/carla-simulator-carla.html)
+- [awesome-radar-perception A curated list of radar datasets, detection, tracking and fusion ★ 1.9k · autonomous-driving sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/zhouyi1023-awesome-radar-perception.html)
+- [autorally Software for the AutoRally platform ★ 789 · autonomous-driving sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/autorally-autorally.html)
+- [awesome-computer-vision-resources a collection of computer vision projects&tools. 计算机视觉方向项目和工具集合。 ★ 354 · autonomous-driving sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/hanxinzi-ai-awesome-computer-vision-resources.html)
+- [BeamNGpy Python API for BeamNG.tech ★ 373 · ai sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/beamng-beamngpy.html)
+- [Awesome-World-Model Collect some World Models for Autonomous Driving (and Robotic, etc.) papers. ★ 2.2k · artificial-intelligence sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/lmd0311-awesome-world-model.html)
+- [bark Open-Source Framework for Development, Simulation and Benchmarking of Behavior Planning Algorit… ★ 306 · artificial-intelligence sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/bark-simulator-bark.html)
+- [Awesome-Interaction-Aware-Trajectory-Prediction A selection of state-of-the-art research materials on trajectory prediction ★ 1.7k · artificial-intelligence sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/jiachenli94-awesome-interaction-aware-trajectory-prediction.html)
+- [Ultra-Fast-Lane-Detection Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020) ★ 2k · autonomous-driving sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/cfzd-ultra-fast-lane-detection.html)
+- [autoware Autoware - the world's leading open-source software project for autonomous driving ★ 11.8k · autonomous-driving sharesautonomous-vehiclesautonomous-driving](https://olud.ai/project/autowarefoundation-autoware.html)
+
+Measured from GitHub topics shared by both projects, weighted by how rare each topic is.
