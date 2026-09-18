@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "Maava desktop client — discover, install, and launch AI tools and agents.",
   "author": {
-    "name": "Portdex",
+    "name": "Maava Community",
     "email": "rajdeepverma2020@gmail.com"
   },
   "homepage": "https://github.com/Maavacommunity/maava",
@@ -22,7 +22,7 @@
     "typescript": "^5.5.0"
   },
   "build": {
-    "appId": "com.portdex.maava",
+    "appId": "com.maava.desktop",
     "productName": "Maava",
     "publish": null,
     "protocols": {

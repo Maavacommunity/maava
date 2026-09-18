@@ -1,6 +1,6 @@
 # Maava
 
-Monorepo for the Portdex/Maava project.
+Monorepo for the Maava project ([Maavacommunity](https://github.com/Maavacommunity)).
 
 ## Layout
 
