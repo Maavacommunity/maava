@@ -2,7 +2,7 @@ name: olud-api-ci
 
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
     paths:
       - "services/olud-api/**"
       - ".github/workflows/olud-api-ci.yml"

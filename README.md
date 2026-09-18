@@ -45,6 +45,9 @@ pnpm dev:frontend      # http://localhost:3000
 pnpm dev:desktop        # opens Electron pointed at the frontend dev server
 pnpm dev:olud-viewer    # http://localhost:5173
 
+# Package installers for each OS (run from apps/desktop)
+pnpm --filter desktop package   # outputs to apps/desktop/release/ (dmg/zip, nsis, AppImage/deb)
+
 # Local Postgres + DynamoDB (mirrors the Aurora setup used in prod, plus
 # the DynamoDB local instance the olud.ai mirror pipeline uses)
 docker compose up -d
@@ -79,6 +82,46 @@ python -m scraper.olud.load     # loads structured/*.jsonl into DynamoDB local
 cd pipelines
 pip install ../scraper .[dev]
 python -m pipelines.run_daily
+```
+
+## Desktop app
+
+`apps/desktop` is the "Steam for AI tools" client: it ships a local agent
+catalog (`apps/desktop/src/agentRegistry.ts`), installs an agent into an
+isolated Python virtualenv under Electron's per-user data directory, and
+launches it with output streamed live into the UI. It registers the
+`maava://` protocol, so "Install & Launch in Desktop" links from the website
+(`apps/frontend`) open the app and kick off an install directly.
+
+A bundled `hello-agent` (no external dependencies) exercises the full
+install → launch → uninstall pipeline offline; the rest of the catalog
+installs from their real upstream git repos and needs network + the
+runtime listed in their manifest.
+
+### Branches & releases
+
+- `main` — production. Tagging a commit on `main` as `desktop-v<version>`
+  (e.g. `git tag desktop-v0.1.0 && git push origin desktop-v0.1.0`) triggers
+  `desktop-release.yml`, which builds installers for macOS/Windows/Linux and
+  opens a **draft** GitHub Release with them attached for review before
+  publishing.
+- `develop` — everyday work and testing. Every push to `develop` builds the
+  same installers and publishes them immediately as a **pre-release**
+  (tagged `desktop-test-<short-sha>`) so you can grab a build to test without
+  cutting a version tag.
+
+Both channels run through the same workflow file; CI (typecheck/build) also
+runs on pushes to either branch, not just `main`.
+
+Known local dev quirk: on very new Node versions, `electron`'s postinstall
+can silently extract only `dist/locales` and stop (an `extract-zip`
+incompatibility), leaving `electron failed to install correctly` errors. If
+that happens, re-extract the cached zip manually:
+
+```bash
+cd node_modules/.pnpm/electron@*/node_modules/electron
+rm -rf dist && unzip -q "$(find ~/.cache/electron -name 'electron-v*.zip' | head -1)" -d dist
+echo electron > path.txt
 ```
 
 ## Infrastructure

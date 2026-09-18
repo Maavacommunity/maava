@@ -1,0 +1,94 @@
+name: desktop-release
+
+# Two channels share this one pipeline:
+#   - push to `develop`      -> test build, published immediately as a GitHub
+#                                pre-release tagged desktop-test-<short-sha>
+#   - push tag desktop-v*    -> production build, published as a draft
+#                                release for a human to review and publish
+on:
+  push:
+    tags:
+      - "desktop-v*"
+    branches:
+      - "develop"
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-latest
+            artifact: mac
+          - os: windows-latest
+            artifact: win
+          - os: ubuntu-latest
+            artifact: linux
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "pnpm"
+
+      - run: pnpm install --frozen-lockfile
+
+      - run: pnpm --filter desktop package
+        env:
+          # No code-signing certs configured yet — build unsigned installers
+          # rather than let electron-builder fail trying to auto-discover one.
+          CSC_IDENTITY_AUTO_DISCOVERY: false
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maava-desktop-${{ matrix.artifact }}
+          path: |
+            apps/desktop/release/*.dmg
+            apps/desktop/release/*.zip
+            apps/desktop/release/*.exe
+            apps/desktop/release/*.AppImage
+            apps/desktop/release/*.deb
+          if-no-files-found: error
+
+  release:
+    needs: build
+    if: github.ref_type == 'tag' || github.ref_name == 'develop'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Determine release channel
+        id: channel
+        run: |
+          if [ "${{ github.ref_type }}" = "tag" ]; then
+            echo "tag_name=${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
+            echo "name=Maava Desktop ${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
+            echo "prerelease=false" >> "$GITHUB_OUTPUT"
+            echo "draft=true" >> "$GITHUB_OUTPUT"
+          else
+            short_sha=$(git rev-parse --short "${{ github.sha }}")
+            echo "tag_name=desktop-test-${short_sha}" >> "$GITHUB_OUTPUT"
+            echo "name=Maava Desktop test build (${short_sha})" >> "$GITHUB_OUTPUT"
+            echo "prerelease=true" >> "$GITHUB_OUTPUT"
+            echo "draft=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.channel.outputs.tag_name }}
+          name: ${{ steps.channel.outputs.name }}
+          prerelease: ${{ steps.channel.outputs.prerelease }}
+          draft: ${{ steps.channel.outputs.draft }}
+          files: artifacts/**/*
+          generate_release_notes: true

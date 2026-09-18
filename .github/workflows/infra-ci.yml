@@ -2,7 +2,7 @@ name: infra-ci
 
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
     paths:
       - "infra/**"
       - ".github/workflows/infra-ci.yml"

@@ -2,7 +2,7 @@ name: microservice-ci
 
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
     paths:
       - "services/api/**"
       - ".github/workflows/microservice-ci.yml"

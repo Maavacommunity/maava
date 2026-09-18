@@ -2,7 +2,7 @@ name: scraper-ci
 
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
     paths:
       - "scraper/**"
       - ".github/workflows/scraper-ci.yml"
