@@ -79,7 +79,7 @@ jobs:
             echo "prerelease=false" >> "$GITHUB_OUTPUT"
             echo "draft=true" >> "$GITHUB_OUTPUT"
           else
-            short_sha=$(git rev-parse --short "${{ github.sha }}")
+            short_sha=$(echo "${{ github.sha }}" | cut -c1-7)
             echo "tag_name=desktop-test-${short_sha}" >> "$GITHUB_OUTPUT"
             echo "name=Maava Desktop test build (${short_sha})" >> "$GITHUB_OUTPUT"
             echo "prerelease=true" >> "$GITHUB_OUTPUT"
